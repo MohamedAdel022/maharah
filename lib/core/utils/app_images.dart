@@ -6,9 +6,21 @@ class Assets {
   /// assets/images/3d-house.png
   static const String images3dHouse = "assets/images/3d-house.png";
 
+  /// Assets for imagesClock
+  /// assets/images/clock.png
+  static const String imagesClock = "assets/images/clock.png";
+
+  /// Assets for imagesHouse
+  /// assets/images/house.png
+  static const String imagesHouse = "assets/images/house.png";
+
   /// Assets for imagesImage
   /// assets/images/image.png
   static const String imagesImage = "assets/images/image.png";
+
+  /// Assets for imagesMenuIcon
+  /// assets/images/menu_icon.png
+  static const String imagesMenuIcon = "assets/images/menu_icon.png";
 
   /// Assets for imagesNoroot
   /// assets/images/noroot.png

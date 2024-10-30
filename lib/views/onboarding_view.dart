@@ -6,14 +6,14 @@ import 'package:maharah/views/widgets/language_button.dart';
 import 'package:maharah/views/widgets/onboarding_actions.dart';
 import 'package:maharah/views/widgets/onboarding_item.dart';
 
-class Onboarding extends StatefulWidget {
-  const Onboarding({super.key});
+class OnboardingView extends StatefulWidget {
+  const OnboardingView({super.key});
 
   @override
-  State<Onboarding> createState() => _OnboardingState();
+  State<OnboardingView> createState() => _OnboardingViewState();
 }
 
-class _OnboardingState extends State<Onboarding> {
+class _OnboardingViewState extends State<OnboardingView> {
   final PageController controller = PageController(initialPage: 0);
   int currentPage = 0;
   final List<OnboardingModel> onboardingList = [

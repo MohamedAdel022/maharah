@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:maharah/constants.dart';
 import 'package:maharah/core/models/onboarding_model.dart';
 import 'package:maharah/core/utils/app_images.dart';
-import 'package:maharah/views/home_view.dart';
 import 'package:maharah/views/widgets/custom_page_indicator.dart';
 import 'package:maharah/views/widgets/language_button.dart';
 import 'package:maharah/views/widgets/onboarding_item.dart';
-import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class Onboarding extends StatefulWidget {
   const Onboarding({super.key});
@@ -21,22 +18,22 @@ class _OnboardingState extends State<Onboarding> {
     const OnboardingModel(
       title: 'Hourly Services',
       description: 'Description 2',
-      image: Assets.imagesWatch,
+      image: Assets.imagesOnboardingImg1,
     ),
     const OnboardingModel(
       title: 'Monthly Services',
       description: 'Description 1',
-      image: Assets.images3dHouse,
+      image: Assets.imagesOnboardingImg2,
     ),
     const OnboardingModel(
       title: 'Self Service',
       description: 'Description 3',
-      image: Assets.imagesRb26088,
+      image: Assets.imagesOnboardingImg3,
     ),
     const OnboardingModel(
       title: 'Various Payment Methods',
       description: 'Description 3',
-      image: Assets.imagesNoroot,
+      image: Assets.imagesOnboardingImg4,
     ),
   ];
   @override

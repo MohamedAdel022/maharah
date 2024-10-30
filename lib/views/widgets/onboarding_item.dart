@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:maharah/constants.dart';
 import 'package:maharah/core/models/onboarding_model.dart';
 
@@ -14,9 +15,8 @@ class OnboardingItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Image.asset(
+        SvgPicture.asset(
           onboardingModel.image,
-          height: 300,
         ),
         Text(
           onboardingModel.title,

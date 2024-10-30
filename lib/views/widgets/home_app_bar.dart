@@ -3,7 +3,6 @@ import 'package:maharah/constants.dart';
 import 'package:maharah/core/helpers/image_helper.dart';
 import 'package:maharah/core/utils/app_images.dart';
 
-
 class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
   const HomeAppBar({
     super.key,
@@ -12,12 +11,12 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      backgroundColor: appBarColor,
+      backgroundColor: primaryColor,
       // leadingWidth: MediaQuery.of(context).size.width * .3,
       leading: Row(
         children: [
           const SizedBox(
-            width: 10,
+            width: 20,
           ),
           ImageHelper.loadFromAsset(Assets.imagesMenuIcon, width: 28),
         ],

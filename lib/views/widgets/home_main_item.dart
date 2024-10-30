@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:maharah/constants.dart';
 import 'package:maharah/core/helpers/image_helper.dart';
 
-
 class HomeMainItem extends StatelessWidget {
   const HomeMainItem({
     super.key,
@@ -32,6 +31,7 @@ class HomeMainItem extends StatelessWidget {
               const SizedBox(height: 10),
               Text(
                 title,
+                overflow: TextOverflow.ellipsis,
                 style: const TextStyle(
                     color: textColor,
                     fontSize: 18,

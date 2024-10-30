@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:maharah/constants.dart';
-import 'package:maharah/core/helpers/image_assets.dart';
 import 'package:maharah/core/helpers/image_helper.dart';
+import 'package:maharah/core/utils/app_images.dart';
 
 
 class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
@@ -19,7 +19,7 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
           const SizedBox(
             width: 10,
           ),
-          ImageHelper.loadFromAsset(ImageAssets.menuIcon, width: 28),
+          ImageHelper.loadFromAsset(Assets.imagesMenuIcon, width: 28),
         ],
       ),
       title: const Row(

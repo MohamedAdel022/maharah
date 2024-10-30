@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:maharah/views/home_view.dart';
 import 'package:maharah/views/onboarding.dart';
+import 'package:maharah/views/onboarding.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,6 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: HomeView(),
+      home: Onboarding(),
     );
   }
 }

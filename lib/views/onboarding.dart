@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:maharah/constants.dart';
 import 'package:maharah/core/models/onboarding_model.dart';
 import 'package:maharah/core/utils/app_images.dart';
 import 'package:maharah/views/widgets/custom_page_indicator.dart';

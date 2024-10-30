@@ -18,7 +18,10 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
           const SizedBox(
             width: 20,
           ),
-          ImageHelper.loadFromAsset(Assets.imagesMenuIcon, width: 28),
+          GestureDetector(
+            child: ImageHelper.loadFromAsset(Assets.imagesMenuIcon, width: 28),
+            onTap: () => Scaffold.of(context).openDrawer(),
+          ),
         ],
       ),
       title: const Row(

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:maharah/constants.dart';
 import 'package:maharah/core/utils/app_images.dart';
+import 'package:maharah/views/login_view.dart';
 import 'package:maharah/views/widgets/custom_toggle_button.dart';
 import 'package:maharah/views/widgets/home_drawer_button.dart';
 
@@ -167,12 +168,19 @@ class DrawerFirstSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        height: MediaQuery.of(context).size.height * .12,
-        padding: const EdgeInsets.only(left: 25),
-        decoration: const BoxDecoration(
-          borderRadius: BorderRadius.vertical(bottom: Radius.circular(10)),
-          color: primaryColor,
-        ),
+      height: MediaQuery.of(context).size.height * .12,
+      padding: const EdgeInsets.only(left: 25),
+      decoration: const BoxDecoration(
+        borderRadius: BorderRadius.vertical(bottom: Radius.circular(10)),
+        color: primaryColor,
+      ),
+      child: InkWell(
+        onTap: () {
+          // Add your onTap functionality here
+          Navigator.of(context).push(
+            MaterialPageRoute(builder: (context) => const LoginView()),
+          );
+        },
         child: Row(
           children: [
             SvgPicture.asset(
@@ -188,6 +196,8 @@ class DrawerFirstSection extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                     color: textColor))
           ],
-        ));
+        ),
+      ),
+    );
   }
 }

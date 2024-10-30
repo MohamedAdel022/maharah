@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:maharah/constants.dart';
 import 'package:maharah/core/models/onboarding_model.dart';
 
@@ -14,8 +13,9 @@ class OnboardingItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        SvgPicture.asset(
+        Image.asset(
           onboardingModel.image,
         ),
         Text(
@@ -23,10 +23,14 @@ class OnboardingItem extends StatelessWidget {
           style: const TextStyle(
               fontSize: 24, fontWeight: FontWeight.bold, color: textColor),
         ),
-        Text(
-          onboardingModel.description,
-          style: const TextStyle(
-            fontSize: 16,
+        Center(
+          child: Padding(
+            padding: const EdgeInsets.only(left: 8),
+            child: Text(
+              onboardingModel.description,
+              style:
+                  TextStyle(fontSize: 18, color: Colors.black.withOpacity(0.5)),
+            ),
           ),
         ),
       ],

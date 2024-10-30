@@ -247,20 +247,20 @@ class Assets {
   static const String imagesNotificationsUnread = "assets/images/notifications-unread.svg";
 
   /// Assets for imagesOnboardingImg1
-  /// assets/images/onboarding-img1.svg
-  static const String imagesOnboardingImg1 = "assets/images/onboarding-img1.svg";
+  /// assets/images/onboarding-img1.png
+  static const String imagesOnboardingImg1 = "assets/images/onboarding-img1.png";
 
   /// Assets for imagesOnboardingImg2
-  /// assets/images/onboarding-img2.svg
-  static const String imagesOnboardingImg2 = "assets/images/onboarding-img2.svg";
+  /// assets/images/onboarding-img2.png
+  static const String imagesOnboardingImg2 = "assets/images/onboarding-img2.png";
 
   /// Assets for imagesOnboardingImg3
-  /// assets/images/onboarding-img3.svg
-  static const String imagesOnboardingImg3 = "assets/images/onboarding-img3.svg";
+  /// assets/images/onboarding-img3.png
+  static const String imagesOnboardingImg3 = "assets/images/onboarding-img3.png";
 
   /// Assets for imagesOnboardingImg4
-  /// assets/images/onboarding-img4.svg
-  static const String imagesOnboardingImg4 = "assets/images/onboarding-img4.svg";
+  /// assets/images/onboarding-img4.png
+  static const String imagesOnboardingImg4 = "assets/images/onboarding-img4.png";
 
   /// Assets for imagesPaidAnimation
   /// assets/images/paid-animation.gif

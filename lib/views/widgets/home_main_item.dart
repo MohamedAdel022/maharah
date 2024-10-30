@@ -1,7 +1,7 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:maharah/constants.dart';
-import 'package:maharah/core/helpers/image_helper.dart';
 
 class HomeMainItem extends StatelessWidget {
   const HomeMainItem({
@@ -20,14 +20,17 @@ class HomeMainItem extends StatelessWidget {
         filter: ImageFilter.blur(sigmaX: 8, sigmaY: 5),
         child: Container(
           decoration: BoxDecoration(
-            color: Colors.black.withOpacity(0.1),
+            color: Colors.grey.withOpacity(0.1),
           ),
           height: 170,
           width: 170,
           child: Column(
             children: [
               const Spacer(),
-              ImageHelper.loadFromAsset(img, width: 90),
+              SvgPicture.asset(
+                img,
+                width: 80,
+              ),
               const SizedBox(height: 10),
               Text(
                 title,

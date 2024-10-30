@@ -17,6 +17,13 @@ class CustomPageIndicator extends StatelessWidget {
     return SmoothPageIndicator(
       controller: controller,
       count: count,
+      onDotClicked: (index) {
+        controller.animateToPage(
+          index,
+          duration: const Duration(milliseconds: 500),
+          curve: Curves.ease,
+        );
+      },
       effect: const ExpandingDotsEffect(
         dotWidth: 13, // Default width of inactive dots
         dotHeight: 5, // Default height of inactive dots

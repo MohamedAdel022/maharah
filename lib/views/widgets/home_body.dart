@@ -1,5 +1,9 @@
+// ignore_for_file: unused_import
+
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:maharah/constants.dart';
+import 'package:maharah/core/models/list_item_model.dart';
 import 'package:maharah/core/utils/app_images.dart';
 import 'package:maharah/views/widgets/home_list_item.dart';
 import 'package:maharah/views/widgets/home_main_item.dart';
@@ -43,12 +47,12 @@ class HomeBody extends StatelessWidget {
                   children: [
                     HomeMainItem(
                       title: 'HOURLY SERVICES',
-                      img: Assets.imagesClock,
+                      img: Assets.imagesHourlyService,
                     ),
                     SizedBox(width: 20),
                     HomeMainItem(
                       title: 'MONTHLY SERVICES',
-                      img: Assets.imagesHouse,
+                      img: Assets.imagesMonthlyService,
                     ),
                   ],
                 ),
@@ -56,9 +60,24 @@ class HomeBody extends StatelessWidget {
             ],
           ),
           const SizedBox(height: 100),
-          const HomeListItem(),
-          const HomeListItem(),
-          const HomeListItem(),
+          HomeListItem(
+              model: ListItemModel(
+                  title: 'Mediation Service',
+                  description:
+                      'Sponsorship in a short period, with distinctive packages prices',
+                  imagePath: Assets.imagesMediationIcon)),
+          HomeListItem(
+              model: ListItemModel(
+                  title: 'Business Service',
+                  description:
+                      'Sponsorship in a short period, with distinctive packages prices',
+                  imagePath: Assets.imagesBusinessSectorIcon)),
+          HomeListItem(
+              model: ListItemModel(
+                  title: 'Training Service',
+                  description:
+                      'Sponsorship in a short period, with distinctive packages prices',
+                  imagePath: Assets.imagesAyadiInstituteLogo)),
         ],
       ),
     );

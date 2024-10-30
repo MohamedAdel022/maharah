@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:maharah/constants.dart';
+import 'package:maharah/core/models/list_item_model.dart';
 
 class HomeListItem extends StatelessWidget {
   const HomeListItem({
     super.key,
+    required this.model,
   });
+  final ListItemModel model;
 
   @override
   Widget build(BuildContext context) {
@@ -19,11 +23,7 @@ class HomeListItem extends StatelessWidget {
         ),
         child: Row(
           children: [
-            const Icon(
-              Icons.people,
-              size: 50,
-              color: textColor,
-            ),
+            SvgPicture.asset(model.imagePath, width: 60),
             const SizedBox(
               width: 30,
             ),
@@ -31,17 +31,17 @@ class HomeListItem extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const Text(
-                  'main text',
-                  style: TextStyle(
+                Text(
+                  model.title,
+                  style: const TextStyle(
                       color: textColor,
                       fontSize: 20,
                       fontWeight: FontWeight.bold),
                 ),
                 SizedBox(
                   width: MediaQuery.of(context).size.width * .5,
-                  child: const Text(
-                    'sub text hlkahfsa;jakldsja,mv.,xck;vaj;djfaf;',
+                  child: Text(
+                    model.description,
                   ),
                 )
               ],

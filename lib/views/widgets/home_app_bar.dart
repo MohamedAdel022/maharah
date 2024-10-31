@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:maharah/constants.dart';
 import 'package:maharah/core/helpers/image_helper.dart';
 import 'package:maharah/core/utils/app_images.dart';
+import 'package:maharah/views/favourite_view.dart';
 
 class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
   const HomeAppBar({
@@ -24,17 +25,21 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
           ),
         ],
       ),
-      title: const Row(
+      title: Row(
         children: [
           IconButton(
-              onPressed: null,
-              icon: Icon(
+              onPressed: () {
+                Navigator.of(context).push(MaterialPageRoute(
+                    builder: (context) => const FavouriteView()));
+              },
+              icon: const Icon(
                 Icons.favorite_outline,
                 color: Colors.white,
                 size: 30,
               )),
-          Spacer(),
-          Icon(Icons.notifications_outlined, color: Colors.white, size: 30),
+          const Spacer(),
+          const Icon(Icons.notifications_outlined,
+              color: Colors.white, size: 30),
         ],
       ),
     );

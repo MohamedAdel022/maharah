@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:maharah/constants.dart';
 import 'package:maharah/core/utils/app_images.dart';
+import 'package:maharah/views/login_view.dart';
 
 class HomeBottomNavBar extends StatelessWidget {
   const HomeBottomNavBar({
@@ -54,7 +55,13 @@ class BottomNavItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialButton(
-      onPressed: () => {debugPrint(text)},
+      onPressed: () {
+        if (text == 'Contracts') {
+          Navigator.push(context, MaterialPageRoute(builder: (context) {
+            return const LoginView();
+          }));
+        }
+      },
       clipBehavior: Clip.hardEdge,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,

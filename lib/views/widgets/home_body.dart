@@ -5,6 +5,8 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:maharah/constants.dart';
 import 'package:maharah/core/models/list_item_model.dart';
 import 'package:maharah/core/utils/app_images.dart';
+import 'package:maharah/views/business_service_view.dart';
+import 'package:maharah/views/mediation_service_view.dart';
 import 'package:maharah/views/widgets/home_list_item.dart';
 import 'package:maharah/views/widgets/home_main_item.dart';
 
@@ -60,18 +62,33 @@ class HomeBody extends StatelessWidget {
             ],
           ),
           const SizedBox(height: 100),
-          HomeListItem(
-              model: ListItemModel(
-                  title: 'Mediation Service',
-                  description:
-                      'Sponsorship in a short period, with distinctive packages prices',
-                  imagePath: Assets.imagesMediationIcon)),
-          HomeListItem(
-              model: ListItemModel(
-                  title: 'Business Service',
-                  description:
-                      'Sponsorship in a short period, with distinctive packages prices',
-                  imagePath: Assets.imagesBusinessSectorIcon)),
+          InkWell(
+            onTap: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const MediationServiceView(),
+                  ));
+            },
+            child: HomeListItem(
+                model: ListItemModel(
+                    title: 'Mediation Service',
+                    description:
+                        'Sponsorship in a short period, with distinctive packages prices',
+                    imagePath: Assets.imagesMediationIcon)),
+          ),
+          InkWell(
+            onTap: () {
+              Navigator.of(context).push(MaterialPageRoute(
+                  builder: (context) => const BusinessServiceView()));
+            },
+            child: HomeListItem(
+                model: ListItemModel(
+                    title: 'Business Service',
+                    description:
+                        'Sponsorship in a short period, with distinctive packages prices',
+                    imagePath: Assets.imagesBusinessSectorIcon)),
+          ),
           HomeListItem(
               model: ListItemModel(
                   title: 'Training Service',

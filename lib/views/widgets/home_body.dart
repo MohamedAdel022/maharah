@@ -4,9 +4,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:maharah/constants.dart';
 import 'package:maharah/core/models/list_item_model.dart';
+import 'package:maharah/core/models/service_item_model.dart';
 import 'package:maharah/core/utils/app_images.dart';
 import 'package:maharah/views/business_service_view.dart';
 import 'package:maharah/views/mediation_service_view.dart';
+import 'package:maharah/views/widgets/bottom_sheet_widget.dart';
 import 'package:maharah/views/widgets/home_list_item.dart';
 import 'package:maharah/views/widgets/home_main_item.dart';
 
@@ -14,6 +16,24 @@ class HomeBody extends StatelessWidget {
   const HomeBody({
     super.key,
   });
+
+  static const List<ServiceItemModel> hourlyServiceList = [
+    ServiceItemModel(title: 'Cleaning', image: Assets.imagesHourlyCleaningIcon),
+    ServiceItemModel(
+        title: 'Hospitality', image: Assets.imagesHourlyHospitalityIcon),
+    ServiceItemModel(title: 'SPA', image: Assets.imagesLavenderIcon),
+  ];
+
+  static const List<ServiceItemModel> monthlyServiceList = [
+    ServiceItemModel(
+        title: 'Cleaning', image: Assets.imagesMonthlyCleaningServiceIcon),
+    ServiceItemModel(
+        title: 'Chef', image: Assets.imagesMonthlyCookingServiceIcon),
+    ServiceItemModel(title: 'Nanny', image: Assets.imagesNanny),
+    ServiceItemModel(title: 'Personal Care', image: Assets.imagesPersonalCare),
+    ServiceItemModel(
+        title: 'Driver', image: Assets.imagesMonthlyDrivingServiceIcon),
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -52,7 +72,9 @@ class HomeBody extends StatelessWidget {
                         showModalBottomSheet(
                           context: context,
                           builder: (context) {
-                            return const BottomSheetWidget();
+                            return const BottomSheetWidget(
+                              items: hourlyServiceList,
+                            );
                           },
                         );
                       },
@@ -62,9 +84,22 @@ class HomeBody extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(width: 20),
-                    const HomeMainItem(
-                      title: 'MONTHLY SERVICES',
-                      img: Assets.imagesMonthlyService,
+                    InkWell(
+                      onTap: () {
+                        showModalBottomSheet(
+                          useSafeArea: true,
+                          context: context,
+                          builder: (context) {
+                            return const BottomSheetWidget(
+                              items: monthlyServiceList,
+                            );
+                          },
+                        );
+                      },
+                      child: const HomeMainItem(
+                        title: 'MONTHLY SERVICES',
+                        img: Assets.imagesMonthlyService,
+                      ),
                     ),
                   ],
                 ),
@@ -106,61 +141,6 @@ class HomeBody extends StatelessWidget {
                       'Sponsorship in a short period, with distinctive packages prices',
                   imagePath: Assets.imagesAyadiInstituteLogo)),
         ],
-      ),
-    );
-  }
-}
-
-class BottomSheetWidget extends StatelessWidget {
-  const BottomSheetWidget({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      decoration: const BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.vertical(top: Radius.circular(16)),
-      ),
-      height: MediaQuery.of(context).size.height * 0.26,
-      child: Center(
-        child: Column(
-          children: [
-            const SizedBox(height: 20),
-            const Text('Choose the service type',
-                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-            const SizedBox(height: 20),
-            Row(
-              children: [
-                Column(
-                  children: [
-                    Container(
-                      height: 100,
-                      width: 100,
-                      decoration: ShapeDecoration(
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(8),
-                        ),
-                        color: Colors.white,
-                        shadows: [
-                          BoxShadow(
-                            color: Colors.black.withOpacity(0.2),
-                            spreadRadius: 2,
-                            blurRadius: 5,
-                            offset: const Offset(0, 3),
-                          ),
-                        ],
-                      ),
-                      child: SvgPicture.asset(
-                          Assets.imagesMonthlyCleaningServiceIcon),
-                    )
-                  ],
-                )
-              ],
-            )
-          ],
-        ),
       ),
     );
   }

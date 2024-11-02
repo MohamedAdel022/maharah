@@ -3,6 +3,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:maharah/constants.dart';
 import 'package:maharah/core/utils/app_images.dart';
 import 'package:maharah/views/login_view.dart';
+import 'package:maharah/views/my_tickets_view.dart';
 import 'package:maharah/views/widgets/custom_toggle_button.dart';
 import 'package:maharah/views/widgets/home_drawer_button.dart';
 
@@ -26,33 +27,44 @@ class HomeDrawer extends StatelessWidget {
             const SizedBox(
               height: 20,
             ),
-            const HomeDrawerButton(
+            HomeDrawerButton(
               imgpath: Assets.imagesMapPin,
               title: 'My Locations',
+              onPressed: () {},
             ),
-            const HomeDrawerButton(
+            HomeDrawerButton(
               imgpath: Assets.imagesTicket,
               title: 'My Tickets',
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                      builder: (context) => const MyTicketsView()),
+                );
+              },
             ),
-            const HomeDrawerButton(
+            HomeDrawerButton(
               imgpath: Assets.imagesSettings,
               title: 'Profile',
+              onPressed: () {},
             ),
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
               child: Divider(),
             ),
-            const HomeDrawerButton(
+            HomeDrawerButton(
               imgpath: Assets.imagesFaqs,
               title: 'Frequently Asked Questions',
+              onPressed: () {},
             ),
-            const HomeDrawerButton(
+            HomeDrawerButton(
               imgpath: Assets.imagesInfo,
               title: 'About Maharah',
+              onPressed: () {},
             ),
-            const HomeDrawerButton(
+            HomeDrawerButton(
               imgpath: Assets.imagesMap,
               title: 'Maharah\'s Branches',
+              onPressed: () {},
             ),
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 10, vertical: 5),

@@ -5,15 +5,15 @@ class HomeDrawerButton extends StatelessWidget {
   const HomeDrawerButton({
     super.key,
     required this.title,
-    required this.imgpath,
+    required this.imgpath, required this.onPressed,
   });
   final String title;
   final String imgpath;
-
+  final VoidCallback onPressed;
   @override
   Widget build(BuildContext context) {
     return MaterialButton(
-      onPressed: () {},
+      onPressed:onPressed,
       height: 50,
       child: Row(children: [
         SvgPicture.asset(

@@ -31,6 +31,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter:
     sdk: flutter
+  flutter_launcher_icons: ^0.14.1
   flutter_svg: ^2.0.10+1
   smooth_page_indicator: ^1.2.0+3
 
@@ -81,3 +82,11 @@ flutter_assets:
   output_path: lib/core/utils
   filename: app_images.dart
   field_prefix: null
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo-icon-only.svg"
+  minSdk: 24
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/images/logo-icon-only.svg"

@@ -40,19 +40,29 @@ class HomeBody extends StatelessWidget {
                         fontSize: 30,
                         fontWeight: FontWeight.bold),
                   )),
-              const Positioned(
+              Positioned(
                 bottom: -70,
                 left: 0,
                 right: 0,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    HomeMainItem(
-                      title: 'HOURLY SERVICES',
-                      img: Assets.imagesHourlyService,
+                    InkWell(
+                      onTap: () {
+                        showModalBottomSheet(
+                          context: context,
+                          builder: (context) {
+                            return const BottomSheetWidget();
+                          },
+                        );
+                      },
+                      child: const HomeMainItem(
+                        title: 'HOURLY SERVICES',
+                        img: Assets.imagesHourlyService,
+                      ),
                     ),
-                    SizedBox(width: 20),
-                    HomeMainItem(
+                    const SizedBox(width: 20),
+                    const HomeMainItem(
                       title: 'MONTHLY SERVICES',
                       img: Assets.imagesMonthlyService,
                     ),
@@ -96,6 +106,61 @@ class HomeBody extends StatelessWidget {
                       'Sponsorship in a short period, with distinctive packages prices',
                   imagePath: Assets.imagesAyadiInstituteLogo)),
         ],
+      ),
+    );
+  }
+}
+
+class BottomSheetWidget extends StatelessWidget {
+  const BottomSheetWidget({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      decoration: const BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.vertical(top: Radius.circular(16)),
+      ),
+      height: MediaQuery.of(context).size.height * 0.26,
+      child: Center(
+        child: Column(
+          children: [
+            const SizedBox(height: 20),
+            const Text('Choose the service type',
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+            const SizedBox(height: 20),
+            Row(
+              children: [
+                Column(
+                  children: [
+                    Container(
+                      height: 100,
+                      width: 100,
+                      decoration: ShapeDecoration(
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                        color: Colors.white,
+                        shadows: [
+                          BoxShadow(
+                            color: Colors.black.withOpacity(0.2),
+                            spreadRadius: 2,
+                            blurRadius: 5,
+                            offset: const Offset(0, 3),
+                          ),
+                        ],
+                      ),
+                      child: SvgPicture.asset(
+                          Assets.imagesMonthlyCleaningServiceIcon),
+                    )
+                  ],
+                )
+              ],
+            )
+          ],
+        ),
       ),
     );
   }

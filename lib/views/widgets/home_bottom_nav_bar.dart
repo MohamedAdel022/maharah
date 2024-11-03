@@ -68,7 +68,7 @@ class BottomNavItem extends StatelessWidget {
         children: [
           SvgPicture.asset(
             imgpath,
-            width: 30,
+            width: 25,
             // ignore: deprecated_member_use
             color: isSelected ? textColor : Colors.grey,
           ),

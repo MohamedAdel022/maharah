@@ -22,14 +22,14 @@ class HomeMainItem extends StatelessWidget {
           decoration: BoxDecoration(
             color: Colors.grey.withOpacity(0.1),
           ),
-          height: 170,
-          width: 170,
+          height: MediaQuery.of(context).size.width * .35,
+          width: MediaQuery.of(context).size.width * .35,
           child: Column(
             children: [
               const Spacer(),
               SvgPicture.asset(
                 img,
-                width: 80,
+                width: 70,
               ),
               const SizedBox(height: 10),
               Text(
@@ -37,7 +37,7 @@ class HomeMainItem extends StatelessWidget {
                 overflow: TextOverflow.ellipsis,
                 style: const TextStyle(
                     color: textColor,
-                    fontSize: 18,
+                    fontSize: 16,
                     fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 10),

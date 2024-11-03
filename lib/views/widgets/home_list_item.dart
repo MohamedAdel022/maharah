@@ -35,7 +35,7 @@ class HomeListItem extends StatelessWidget {
                   model.title,
                   style: const TextStyle(
                       color: textColor,
-                      fontSize: 20,
+                      fontSize: 18,
                       fontWeight: FontWeight.bold),
                 ),
                 SizedBox(

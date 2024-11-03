@@ -61,7 +61,7 @@ class HomeBody extends StatelessWidget {
                         fontWeight: FontWeight.bold),
                   )),
               Positioned(
-                bottom: -70,
+                bottom: MediaQuery.of(context).size.width * -.17,
                 left: 0,
                 right: 0,
                 child: Row(

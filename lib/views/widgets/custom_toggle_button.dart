@@ -1,6 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:maharah/constants.dart';
+import 'package:maharah/core/utils/restart_app.dart';
 
 class CustomToggleButton extends StatefulWidget {
   const CustomToggleButton({
@@ -65,8 +66,10 @@ class _CustomToggleButtonState extends State<CustomToggleButton> {
               }
               if (newIndex == 1) {
                 context.setLocale(const Locale('ar'));
+                RestartWidget.restartApp(context);
               } else {
                 context.setLocale(const Locale('en'));
+                RestartWidget.restartApp(context);
               }
             });
           }),

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:maharah/constants.dart';
-import 'package:maharah/core/utils/app_images.dart';
+import 'package:maharah/core/helpers/image_helper.dart';
+import 'package:maharah/views/home_view.dart';
 import 'package:maharah/views/widgets/language_button.dart';
 
 class LoginView extends StatelessWidget {
@@ -24,13 +24,9 @@ class LoginView extends StatelessWidget {
                 children: [
                   const LanguageButton(),
                   Center(
-                    child: SvgPicture.asset(
-                      Assets.imagesHomeTopBannerLogo,
-                      height: 200,
-                      width: 200,
-                      colorFilter:
-                          const ColorFilter.mode(textColor, BlendMode.srcIn),
-                    ),
+                    child: ImageHelper.loadFromAsset(
+                        'assets/icon/maher_logo.png',
+                        width: 200),
                   ),
                   const SizedBox(height: 20),
                   const Center(
@@ -92,7 +88,13 @@ class LoginView extends StatelessWidget {
                       color: textColor,
                     ),
                     child: TextButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (context) => const HomeView(),
+                            ),
+                          );
+                        },
                         child: const Text(
                           'Sign in',
                           style: TextStyle(color: Colors.white, fontSize: 16),

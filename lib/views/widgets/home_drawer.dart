@@ -186,7 +186,7 @@ class DrawerFirstSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: MediaQuery.of(context).size.height * .12,
-      padding: const EdgeInsets.only(left: 25),
+      padding: const EdgeInsets.only(left: 25, right: 25),
       decoration: const BoxDecoration(
         borderRadius: BorderRadius.vertical(bottom: Radius.circular(10)),
         color: primaryColor,

@@ -18,28 +18,30 @@ class OnboardingView extends StatefulWidget {
 class _OnboardingViewState extends State<OnboardingView> {
   final PageController controller = PageController(initialPage: 0);
   int currentPage = 0;
-  List<OnboardingModel> onboardingList = [
-    OnboardingModel(
-      title: LocaleKeys.Splash_HourlyServices.tr(),
-      description: LocaleKeys.Splash_HourlyServicesDescription.tr(),
-      image: Assets.imagesOnboardingImg1,
-    ),
-    OnboardingModel(
-      title: LocaleKeys.Splash_MonthlyServices.tr(),
-      description: LocaleKeys.Splash_MonthlyServicesDescription.tr(),
-      image: Assets.imagesOnboardingImg2,
-    ),
-    OnboardingModel(
-      title: LocaleKeys.Splash_SelfService.tr(),
-      description: LocaleKeys.Splash_SelfServiceDescription.tr(),
-      image: Assets.imagesOnboardingImg3,
-    ),
-    OnboardingModel(
-      title: LocaleKeys.Splash_VariousPaymentMethods.tr(),
-      description: LocaleKeys.Splash_VariousPaymentMethodsDescription.tr(),
-      image: Assets.imagesOnboardingImg4,
-    ),
-  ];
+  List<OnboardingModel> get onboardingList {
+    return [
+      OnboardingModel(
+        title: LocaleKeys.Splash_HourlyServices.tr(),
+        description: LocaleKeys.Splash_HourlyServicesDescription.tr(),
+        image: Assets.imagesOnboardingImg1,
+      ),
+      OnboardingModel(
+        title: LocaleKeys.Splash_MonthlyServices.tr(),
+        description: LocaleKeys.Splash_MonthlyServicesDescription.tr(),
+        image: Assets.imagesOnboardingImg2,
+      ),
+      OnboardingModel(
+        title: LocaleKeys.Splash_SelfService.tr(),
+        description: LocaleKeys.Splash_SelfServiceDescription.tr(),
+        image: Assets.imagesOnboardingImg3,
+      ),
+      OnboardingModel(
+        title: LocaleKeys.Splash_VariousPaymentMethods.tr(),
+        description: LocaleKeys.Splash_VariousPaymentMethodsDescription.tr(),
+        image: Assets.imagesOnboardingImg4,
+      ),
+    ];
+  }
 
   @override
   void initState() {

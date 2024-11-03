@@ -9,11 +9,12 @@ void main() async {
 
   runApp(
     EasyLocalization(
-        supportedLocales: const [Locale('en'), Locale('ar')],
-        path: 'assets/translations',
-        fallbackLocale: const Locale('ar'),
-        assetLoader: const CodegenLoader(),
-        child: const MyApp()),
+      supportedLocales: const [Locale('en'), Locale('ar')],
+      path: 'assets/translations',
+      fallbackLocale: const Locale('ar'),
+      assetLoader: const CodegenLoader(),
+      child: const MyApp(),
+    ),
   );
 }
 
@@ -28,7 +29,6 @@ class MyApp extends StatelessWidget {
       supportedLocales: context.supportedLocales,
       locale: context.locale,
       debugShowCheckedModeBanner: false,
-      
       home: const OnboardingView(),
     );
   }

@@ -88,7 +88,7 @@ flutter_assets:
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "assets/images/logo-icon-only.svg"
+  image_path: "assets/icon/maher_logo.png"
   minSdk: 24
   adaptive_icon_background: "#ffffff"
-  adaptive_icon_foreground: "assets/images/logo-icon-only.svg"
+  adaptive_icon_foreground: "assets/icon/maher_logo.png"

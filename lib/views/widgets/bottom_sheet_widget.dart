@@ -1,5 +1,7 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:maharah/core/models/service_item_model.dart';
+import 'package:maharah/generated/locale_keys.g.dart';
 import 'package:maharah/views/widgets/bottom_sheet_service_item.dart';
 
 class BottomSheetWidget extends StatelessWidget {
@@ -23,9 +25,10 @@ class BottomSheetWidget extends StatelessWidget {
             Center(
               child: Column(
                 children: [
-                  const Text(
-                    'Choose the service type',
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                  Text(
+                    LocaleKeys.MainPage_ChooseServiceType.tr(),
+                    style: const TextStyle(
+                        fontSize: 20, fontWeight: FontWeight.bold),
                   ),
                   const SizedBox(height: 10),
                   SingleChildScrollView(

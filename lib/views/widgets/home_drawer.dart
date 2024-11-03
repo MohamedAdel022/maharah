@@ -25,8 +25,10 @@ class HomeDrawer extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const DrawerFirstSection(),
-            const DrawerSecondSection(),
+            // ignore: prefer_const_constructors
+            DrawerFirstSection(),
+            // ignore: prefer_const_constructors
+            DrawerSecondSection(),
             const SizedBox(
               height: 20,
             ),

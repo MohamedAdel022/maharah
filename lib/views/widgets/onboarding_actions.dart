@@ -1,5 +1,7 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:maharah/constants.dart';
+import 'package:maharah/generated/locale_keys.g.dart';
 import 'package:maharah/views/home_view.dart';
 
 class OnboardingActions extends StatelessWidget {
@@ -26,20 +28,20 @@ class OnboardingActions extends StatelessWidget {
                   onTap: () {
                     navigateToHome(context);
                   },
-                  child: const Row(
+                  child: Row(
                     children: [
                       Text(
-                        'Skip',
-                        style: TextStyle(
+                        LocaleKeys.Splash_Skip.tr(),
+                        style: const TextStyle(
                           color: Colors.grey,
                           fontWeight: FontWeight.w500,
                           fontSize: 24,
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 5,
                       ),
-                      Icon(
+                      const Icon(
                         Icons.arrow_forward_ios,
                         color: Colors.grey,
                         size: 20,
@@ -71,7 +73,9 @@ class OnboardingActions extends StatelessWidget {
               }
             },
             child: Text(
-              currentPage == onboardingLength - 1 ? 'Get Started' : 'Next',
+              currentPage == onboardingLength - 1
+                  ? LocaleKeys.Splash_StartNow.tr()
+                  : LocaleKeys.Splash_Next.tr(),
               style: const TextStyle(color: Colors.white),
             ),
           ),

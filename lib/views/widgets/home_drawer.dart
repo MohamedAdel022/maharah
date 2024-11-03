@@ -1,7 +1,9 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:maharah/constants.dart';
 import 'package:maharah/core/utils/app_images.dart';
+import 'package:maharah/generated/locale_keys.g.dart';
 import 'package:maharah/views/login_view.dart';
 import 'package:maharah/views/my_tickets_view.dart';
 import 'package:maharah/views/widgets/custom_toggle_button.dart';
@@ -9,13 +11,14 @@ import 'package:maharah/views/widgets/home_drawer_button.dart';
 
 // ignore: must_be_immutable
 class HomeDrawer extends StatelessWidget {
-  HomeDrawer({
+  const HomeDrawer({
     super.key,
   });
 
-  List<bool> isSelected = [true, false];
   @override
   Widget build(BuildContext context) {
+    bool isEnglish = Localizations.localeOf(context).languageCode == 'en';
+    List<bool> isSelected = [isEnglish, !isEnglish];
     return SafeArea(
       child: Drawer(
         backgroundColor: backgroundColor,
@@ -29,12 +32,12 @@ class HomeDrawer extends StatelessWidget {
             ),
             HomeDrawerButton(
               imgpath: Assets.imagesMapPin,
-              title: 'My Locations',
+              title: LocaleKeys.Navigation_Locations.tr(),
               onPressed: () {},
             ),
             HomeDrawerButton(
               imgpath: Assets.imagesTicket,
-              title: 'My Tickets',
+              title: LocaleKeys.Navigation_MyTickets.tr(),
               onPressed: () {
                 Navigator.of(context).push(
                   MaterialPageRoute(
@@ -44,7 +47,7 @@ class HomeDrawer extends StatelessWidget {
             ),
             HomeDrawerButton(
               imgpath: Assets.imagesSettings,
-              title: 'Profile',
+              title: LocaleKeys.Navigation_Settings.tr(),
               onPressed: () {},
             ),
             const Padding(
@@ -53,28 +56,28 @@ class HomeDrawer extends StatelessWidget {
             ),
             HomeDrawerButton(
               imgpath: Assets.imagesFaqs,
-              title: 'Frequently Asked Questions',
+              title: LocaleKeys.Navigation_FAQs.tr(),
               onPressed: () {},
             ),
             HomeDrawerButton(
               imgpath: Assets.imagesInfo,
-              title: 'About Maharah',
+              title: LocaleKeys.Navigation_AboutMaharah.tr(),
               onPressed: () {},
             ),
             HomeDrawerButton(
               imgpath: Assets.imagesMap,
-              title: 'Maharah\'s Branches',
+              title: LocaleKeys.Navigation_MaharahBranches.tr(),
               onPressed: () {},
             ),
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
               child: Divider(),
             ),
-            const Padding(
-              padding: EdgeInsets.only(left: 15, bottom: 15),
+            Padding(
+              padding: const EdgeInsets.only(left: 15, bottom: 15, right: 15),
               child: Text(
-                'Privacy Policy',
-                style: TextStyle(
+                LocaleKeys.Navigation_PrivacyPolicy.tr(),
+                style: const TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.w400,
                     color: Colors.black38),
@@ -83,11 +86,11 @@ class HomeDrawer extends StatelessWidget {
             Center(
               child: CustomToggleButton(isSelected: isSelected),
             ),
-            const Padding(
-              padding: EdgeInsets.only(left: 15, top: 15),
+            Padding(
+              padding: const EdgeInsets.only(left: 15, top: 15, right: 15),
               child: Text(
-                'Follow us',
-                style: TextStyle(
+                LocaleKeys.Navigation_FollowUs.tr(),
+                style: const TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.w400,
                     color: Colors.black38),
@@ -128,38 +131,38 @@ class DrawerSecondSection extends StatelessWidget {
         ),
       ),
       padding: const EdgeInsets.symmetric(vertical: 5),
-      child: const Row(
+      child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text('WALLET',
-                  style: TextStyle(
+              Text(LocaleKeys.Navigation_Wallet.tr(),
+                  style: const TextStyle(
                     fontSize: 18,
                     color: textColor,
                   )),
-              Text('0 RIYAL',
-                  style: TextStyle(
+              Text('0 ${LocaleKeys.Navigation_Riyal.tr()}',
+                  style: const TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
                     color: primaryColor,
                   ))
             ],
           ),
-          VerticalDivider(
+          const VerticalDivider(
             color: Colors.grey,
           ),
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text('POINTS',
-                  style: TextStyle(
+              Text(LocaleKeys.Navigation_Points.tr(),
+                  style: const TextStyle(
                     fontSize: 18,
                     color: textColor,
                   )),
-              Text('0 POINT',
-                  style: TextStyle(
+              Text('0 ${LocaleKeys.Navigation_Point.tr()}',
+                  style: const TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
                     color: primaryColor,
@@ -202,8 +205,8 @@ class DrawerFirstSection extends StatelessWidget {
             const SizedBox(
               width: 10,
             ),
-            const Text('LOGIN',
-                style: TextStyle(
+            Text(LocaleKeys.Register_Login.tr(),
+                style: const TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
                     color: textColor))

@@ -1,5 +1,7 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:maharah/constants.dart';
+import 'package:maharah/generated/locale_keys.g.dart';
 
 class FavouriteView extends StatelessWidget {
   const FavouriteView({super.key});
@@ -9,7 +11,7 @@ class FavouriteView extends StatelessWidget {
     return Scaffold(
       backgroundColor: backgroundColor,
       appBar: AppBar(
-        title: const Text('My Favourite'),
+        title: Text(LocaleKeys.FavoritePackage_Favorite.tr()),
         backgroundColor: backgroundColor,
         centerTitle: true,
         leading: IconButton(
@@ -18,12 +20,12 @@ class FavouriteView extends StatelessWidget {
             },
             icon: const Icon(Icons.arrow_back_ios)),
       ),
-      body: const Align(
+      body: Align(
           alignment: Alignment.topCenter,
           child: Text(
-            'there are no prefered packages selected yet',
+            LocaleKeys.FavoritePackage_NoFavorites.tr(),
             overflow: TextOverflow.ellipsis,
-            style: TextStyle(fontSize: 16),
+            style: const TextStyle(fontSize: 14),
           )),
     );
   }

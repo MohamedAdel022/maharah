@@ -1,11 +1,13 @@
 // ignore_for_file: unused_import
 
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:maharah/constants.dart';
 import 'package:maharah/core/models/list_item_model.dart';
 import 'package:maharah/core/models/service_item_model.dart';
 import 'package:maharah/core/utils/app_images.dart';
+import 'package:maharah/generated/locale_keys.g.dart';
 import 'package:maharah/views/business_service_view.dart';
 import 'package:maharah/views/mediation_service_view.dart';
 import 'package:maharah/views/widgets/bottom_sheet_widget.dart';
@@ -53,9 +55,9 @@ class HomeBody extends StatelessWidget {
               Positioned(
                   top: MediaQuery.of(context).size.height * .03,
                   left: 20,
-                  child: const Text(
-                    'Which service?',
-                    style: TextStyle(
+                  child: Text(
+                    LocaleKeys.MainPage_WhichServiceWouldYouLikeToRequest.tr(),
+                    style: const TextStyle(
                         color: Colors.white,
                         fontSize: 30,
                         fontWeight: FontWeight.bold),
@@ -78,8 +80,8 @@ class HomeBody extends StatelessWidget {
                           },
                         );
                       },
-                      child: const HomeMainItem(
-                        title: 'HOURLY SERVICES',
+                      child: HomeMainItem(
+                        title: LocaleKeys.MainPage_HourlyServices.tr(),
                         img: Assets.imagesHourlyService,
                       ),
                     ),
@@ -96,8 +98,8 @@ class HomeBody extends StatelessWidget {
                           },
                         );
                       },
-                      child: const HomeMainItem(
-                        title: 'MONTHLY SERVICES',
+                      child: HomeMainItem(
+                        title: LocaleKeys.MainPage_MonthlyServices.tr(),
                         img: Assets.imagesMonthlyService,
                       ),
                     ),
@@ -117,9 +119,9 @@ class HomeBody extends StatelessWidget {
             },
             child: HomeListItem(
                 model: ListItemModel(
-                    title: 'Mediation Service',
+                    title: LocaleKeys.MainPage_MediationService.tr(),
                     description:
-                        'Sponsorship in a short period, with distinctive packages prices',
+                        LocaleKeys.MainPage_MediationServiceDescription.tr(),
                     imagePath: Assets.imagesMediationIcon)),
           ),
           InkWell(
@@ -129,16 +131,15 @@ class HomeBody extends StatelessWidget {
             },
             child: HomeListItem(
                 model: ListItemModel(
-                    title: 'Business Service',
+                    title: LocaleKeys.MainPage_BussinessServices.tr(),
                     description:
-                        'Sponsorship in a short period, with distinctive packages prices',
+                        LocaleKeys.MainPage_BussinessServicesDescription.tr(),
                     imagePath: Assets.imagesBusinessSectorIcon)),
           ),
           HomeListItem(
               model: ListItemModel(
-                  title: 'Training Service',
-                  description:
-                      'Sponsorship in a short period, with distinctive packages prices',
+                  title: LocaleKeys.MainPage_Ayadi.tr(),
+                  description: LocaleKeys.MainPage_AyadiDescription.tr(),
                   imagePath: Assets.imagesAyadiInstituteLogo)),
         ],
       ),

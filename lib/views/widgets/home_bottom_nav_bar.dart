@@ -1,7 +1,9 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:maharah/constants.dart';
 import 'package:maharah/core/utils/app_images.dart';
+import 'package:maharah/generated/locale_keys.g.dart';
 import 'package:maharah/views/login_view.dart';
 
 class HomeBottomNavBar extends StatelessWidget {
@@ -18,25 +20,23 @@ class HomeBottomNavBar extends StatelessWidget {
         color: Colors.white,
         borderRadius: BorderRadius.vertical(top: Radius.circular(15)),
       ),
-      child: const Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            BottomNavItem(
-              imgpath: Assets.imagesHome,
-              isSelected: true,
-              text: 'Home',
-            ),
-            BottomNavItem(
-              imgpath: Assets.imagesContracts,
-              isSelected: false,
-              text: 'Contracts',
-            ),
-            BottomNavItem(
-              imgpath: Assets.imagesHelp,
-              isSelected: false,
-              text: 'Help',
-            ),
-          ]),
+      child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
+        BottomNavItem(
+          imgpath: Assets.imagesHome,
+          isSelected: true,
+          text: LocaleKeys.Tabs_Home.tr(),
+        ),
+        BottomNavItem(
+          imgpath: Assets.imagesContracts,
+          isSelected: false,
+          text: LocaleKeys.Tabs_Contracts.tr(),
+        ),
+        BottomNavItem(
+          imgpath: Assets.imagesHelp,
+          isSelected: false,
+          text: LocaleKeys.Tabs_Help.tr(),
+        ),
+      ]),
     );
   }
 }

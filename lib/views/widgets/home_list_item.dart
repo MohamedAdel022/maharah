@@ -31,12 +31,15 @@ class HomeListItem extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
-                  model.title,
-                  style: const TextStyle(
-                      color: textColor,
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold),
+                SizedBox(
+                  width: MediaQuery.of(context).size.width * .5,
+                  child: Text(
+                    model.title,
+                    style: const TextStyle(
+                        color: textColor,
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold),
+                  ),
                 ),
                 SizedBox(
                   width: MediaQuery.of(context).size.width * .5,

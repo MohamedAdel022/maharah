@@ -1,7 +1,7 @@
 class ListItemModel {
-  final String title;
-  final String description;
-  final String imagePath;
+  String title;
+  String description;
+  String imagePath;
 
   ListItemModel({
     required this.title,

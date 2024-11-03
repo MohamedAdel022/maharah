@@ -1,9 +1,9 @@
 class OnboardingModel {
-  final String title;
-  final String description;
-  final String image;
+  String title;
+  String description;
+  String image;
 
-  const OnboardingModel({
+  OnboardingModel({
     required this.title,
     required this.description,
     required this.image,

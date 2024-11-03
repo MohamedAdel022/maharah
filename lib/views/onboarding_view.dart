@@ -1,6 +1,8 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:maharah/core/models/onboarding_model.dart';
 import 'package:maharah/core/utils/app_images.dart';
+import 'package:maharah/generated/locale_keys.g.dart';
 import 'package:maharah/views/widgets/custom_page_indicator.dart';
 import 'package:maharah/views/widgets/language_button.dart';
 import 'package:maharah/views/widgets/onboarding_actions.dart';
@@ -16,28 +18,25 @@ class OnboardingView extends StatefulWidget {
 class _OnboardingViewState extends State<OnboardingView> {
   final PageController controller = PageController(initialPage: 0);
   int currentPage = 0;
-  final List<OnboardingModel> onboardingList = [
-    const OnboardingModel(
-      title: 'Hourly Services',
-      description: 'Hourly based services (cleaning,hospitality)',
+  List<OnboardingModel> onboardingList = [
+    OnboardingModel(
+      title: LocaleKeys.Splash_HourlyServices.tr(),
+      description: LocaleKeys.Splash_HourlyServicesDescription.tr(),
       image: Assets.imagesOnboardingImg1,
     ),
-    const OnboardingModel(
-      title: 'Monthly Services',
-      description:
-          'Domestic workers with a monthly system(cleaning, cooking. nanny, driver) from onemonth to 24 months',
+    OnboardingModel(
+      title: LocaleKeys.Splash_MonthlyServices.tr(),
+      description: LocaleKeys.Splash_MonthlyServicesDescription.tr(),
       image: Assets.imagesOnboardingImg2,
     ),
-    const OnboardingModel(
-      title: 'Self Service',
-      description:
-          'You can advance or postpone the visitdate and also lock or change the cleanerwith a click of a button',
+    OnboardingModel(
+      title: LocaleKeys.Splash_SelfService.tr(),
+      description: LocaleKeys.Splash_SelfServiceDescription.tr(),
       image: Assets.imagesOnboardingImg3,
     ),
-    const OnboardingModel(
-      title: 'Various Payment Methods',
-      description:
-          'ApplePay, Visa, Mastercard, Mada, STCPay ,Sadad, Tamara. Emkan',
+    OnboardingModel(
+      title: LocaleKeys.Splash_VariousPaymentMethods.tr(),
+      description: LocaleKeys.Splash_VariousPaymentMethodsDescription.tr(),
       image: Assets.imagesOnboardingImg4,
     ),
   ];

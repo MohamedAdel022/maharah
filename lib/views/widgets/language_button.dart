@@ -27,7 +27,7 @@ class LanguageButton extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Text(
-            LocaleKeys.Languages.tr(),
+            context.locale == const Locale('en') ? LocaleKeys.Languages_1.tr() : LocaleKeys.Languages_0.tr(),
             style: const TextStyle(
                 color: Colors.black, fontWeight: FontWeight.bold),
           ),

@@ -72,15 +72,19 @@ class _OnboardingViewState extends State<OnboardingView> {
           padding: const EdgeInsets.symmetric(horizontal: 10),
           child: Column(
             children: [
-              const Align(
-                alignment: Alignment.topLeft,
-                child: LanguageButton(),
+              Align(
+                alignment: Localizations.localeOf(context).languageCode == 'ar'
+                    ? Alignment.topRight
+                    : Alignment.topLeft,
+                child: const LanguageButton(),
               ),
               const SizedBox(
                 height: 30,
               ),
               Align(
-                alignment: Alignment.topRight,
+                alignment: Localizations.localeOf(context).languageCode == 'ar'
+                    ? Alignment.topLeft
+                    : Alignment.topRight,
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: CustomPageIndicator(

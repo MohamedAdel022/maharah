@@ -29,6 +29,7 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   cupertino_icons: ^1.0.8
+  easy_localization: ^3.0.7
   flutter:
     sdk: flutter
   flutter_launcher_icons: ^0.14.1
@@ -54,6 +55,7 @@ flutter:
   assets:
     - assets/images/
     - assets/images/onboarding-img1.svg
+    - assets/translations/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
   # For details regarding adding assets from package dependencies, see

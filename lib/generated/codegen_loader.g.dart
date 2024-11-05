@@ -14,7 +14,7 @@ class CodegenLoader extends AssetLoader{
     return Future.value(mapLocales[locale.toString()]);
   }
 
-  static final Map<String,dynamic> ar = {
+  static const Map<String,dynamic> ar = {
   "Common": {
     "Done": "تم",
     "Ok": "موافق",
@@ -307,15 +307,15 @@ class CodegenLoader extends AssetLoader{
     "Welcome": "أهلا،",
     "MyTickets": "بلاغاتي",
     "FAQs": "أسئلة شائعة",
-    "AboutMaharah": "عن مهارة",
-    "MaharahBranches": "فروع مهارة",
+    "AboutMaharah": "عن الماهر",
+    "MaharahBranches": "فروع الماهر",
     "LoginUsingBiometrics": "الدخول عبر بصمة الوجه أو الإصبع",
     "PrivacyPolicy": "سياسة الخصوصية",
     "Arabic": "عربي",
     "ENG": "ENG",
     "FollowUs": "تابعونا",
     "Login": "تسجيل دخول",
-    "MaharahHumanResources": "شركة مهارة للموارد البشرية",
+    "MaharahHumanResources": "شركة الماهر للموارد البشرية",
     "YouAreNotLoggedIn": "أنت غير مسجل دخول",
     "Point": "نقطة",
     "Version": "الإصدار"
@@ -389,7 +389,7 @@ class CodegenLoader extends AssetLoader{
     "FailedToCopyPriceToClipboard": "تعذر نسخ السعر إلى المحفظة",
     "PleaseEnterVoucherNumber": "فضلا أدخل رقم القسيمة الشرائية",
     "PackagePriceIncludesVAT": "قيمة الباقة شاملة الضريبة المضافة",
-    "GetVoucherFromEmkanWebsite": "يمكنكم الحصول على القسيمة الشرائية الخاصة بشركة مهارة من خلال موقع إمكان الموضح أدناه",
+    "GetVoucherFromEmkanWebsite": "يمكنكم الحصول على القسيمة الشرائية الخاصة بشركة الماهر من خلال موقع إمكان الموضح أدناه",
     "VoucherAmount": "قيمة القسيمة الشرائية",
     "VoucherAmountIsNotEnoughtToActivateRequest": "قيمة القسيمة لا تكفي لتنشيط الحجز، سيتم إضافة قيمة القسيمة إلى محفظتك فقط. موافق؟",
     "ApplicationId": "رقم الطلب",
@@ -489,8 +489,8 @@ class CodegenLoader extends AssetLoader{
     "AddTOCalendar": "إضافة مواعيد الزيارات إلى التقويم",
     "ConfirmAddToCalendar": "سوف يتم اضافه زياراتك القادمة الي تقويم جهازك",
     "ConfirmDeleteFromCalendar": "سوف يتم الغاء زياراتك من تقويم جهازك",
-    "EventTitleCalendar": "مهارة: زيارة قادمة",
-    "MaharahUpcomingVisit": "مهارة: زيارة قادمة - ",
+    "EventTitleCalendar": "الماهر: زيارة قادمة",
+    "MaharahUpcomingVisit": "الماهر: زيارة قادمة - ",
     "CalendarVisitTime": "وقت الزيارة ",
     "SupportsInstallments": "تدعم الأقساط",
     "VisitVisits": "زيارة/زيارات",
@@ -747,7 +747,7 @@ class CodegenLoader extends AssetLoader{
     "SlideTitle3": "سهولة و تنوع طرق السداد",
     "SlideText1": "نوفر الخادمات بشكل دوري بأعلى المقاييس",
     "SlideText2": "تمكنك من إدارة عاملاتك بالطريقة التي تناسبك و تستطيع رفع طلبات متعددة",
-    "SlideText3": "تتيح لك مهارة تعدد قنوات الدفع لتختار منها ما يناسبك"
+    "SlideText3": "تتيح لك الماهر تعدد قنوات الدفع لتختار منها ما يناسبك"
   },
   "Contracts": {
     "Contracts": "العقود",
@@ -873,8 +873,8 @@ class CodegenLoader extends AssetLoader{
     "Help": "مساعدة",
     "MyTicket": "بلاغاتي",
     "Complaints": "شكاوي و طلبات",
-    "AboutMaharah": "عن مهارة",
-    "MaharahBranch": "فروع مهارة",
+    "AboutMaharah": "عن الماهر",
+    "MaharahBranch": "فروع الماهر",
     "FAQ": "اسئلة شائعة",
     "Discount": " خصومات لمنسوبي الشركات ",
     "Care": "خدمة العملاء",
@@ -919,9 +919,9 @@ class CodegenLoader extends AssetLoader{
     "Title": "بلاغ"
   },
   "About": {
-    "AboutUs": "عن مهارة",
-    "AboutMaharah": "عن مهارة",
-    "AboutText": "هدف الشركة الرئيسي هو العمل كوسيط ومزود للقوى العاملة للقطاعين العام والخاص. وتهدف مهارة إلى تزويد سوق العمل بالكوادر والعمال في مختلف المهن لتلبية الطلب في السوق من خلال التركيز على التدريب وتطوير فريقها لتوفير أفضل الخدمات لعملائها.",
+    "AboutUs": "عن الماهر",
+    "AboutMaharah": "عن الماهر",
+    "AboutText": "هدف الشركة الرئيسي هو العمل كوسيط ومزود للقوى العاملة للقطاعين العام والخاص. وتهدف الماهر إلى تزويد سوق العمل بالكوادر والعمال في مختلف المهن لتلبية الطلب في السوق من خلال التركيز على التدريب وتطوير فريقها لتوفير أفضل الخدمات لعملائها.",
     "Vision": "الرؤية",
     "VisionText": "ريادة قطاع الموارد البشرية بتقديم حلول شاملة ومتكاملة تضمن النجاح لعملائنا وتحفظ حقوق الموظفين وتدعم التطور الوطني",
     "Mission": "الرسالة",
@@ -985,7 +985,7 @@ class CodegenLoader extends AssetLoader{
   },
   "Discount": {
     "DiscountTitle": "خصومات لمنسوبي الشركات",
-    "DiscountText": "هذه الصفحة خاصة بأصحاب الشركات الذين يرغبون في عقد علاقة استراتيجية مع شركة مهارة، لمنح موظيفها خصومات خاصة على خدمات قطاع الأفراد.",
+    "DiscountText": "هذه الصفحة خاصة بأصحاب الشركات الذين يرغبون في عقد علاقة استراتيجية مع شركة الماهر، لمنح موظيفها خصومات خاصة على خدمات قطاع الأفراد.",
     "CompanyName": "اسم الشركة",
     "CommercialRegistrationNo": "رقم السجل التجاري",
     "CompanyAddress": "عنوان الشركة",
@@ -993,7 +993,7 @@ class CodegenLoader extends AssetLoader{
     "CompanyNo": "عدد منسوبي الشركة",
     "CompanyPhone": "هاتف الشركة",
     "Email": "البريد الالكتروني",
-    "MaharahServices": "مهارة للخدمات",
+    "MaharahServices": "الماهر للخدمات",
     "CompanyAddressPlaceholder": "الرياض التخصصي"
   },
   "ShifaaServiceForm": {
@@ -1024,7 +1024,7 @@ class CodegenLoader extends AssetLoader{
     "Searchbar": "البحث عن اسئلة"
   },
   "Branches": {
-    "Title": "فروع مهارة",
+    "Title": "فروع الماهر",
     "Phone": "الرقم الموحد",
     "Email": "البريد الالكتروني",
     "Website": "الموقع الالكتروني",
@@ -1065,12 +1065,12 @@ class CodegenLoader extends AssetLoader{
     "Register": "تسجيل",
     "Agree": "أوافق على",
     "Terms": "الشروط والأحكام",
-    "MaharahAccount": "لديك حساب في مهارة؟ ",
+    "MaharahAccount": "لديك حساب في الماهر؟ ",
     "Login": " تسجيل دخول"
   },
   "RegisterPopover": {
     "Registered": "تم تسجيلك بنجاح  ",
-    "MaharahAccount": "في تطبيق مهارة",
+    "MaharahAccount": "في تطبيق الماهر",
     "Okay": "حسنا",
     "Home": "الصفحة الرئيسية",
     "Booking": " حجز خدمة"
@@ -1088,7 +1088,7 @@ class CodegenLoader extends AssetLoader{
   },
   "Authentication": {
     "FailedToVerifyYourBiometric": "تعذر التحقق من البصمة الحيوية، فضلا المحاولة مرة أخرى",
-    "YouHaveNoCredentialsSaved": "الرجاء تسجيل الدخول برقم الهاتف وتفعيل البصمة من شاشة الاعدادت في تطبيق مهارة",
+    "YouHaveNoCredentialsSaved": "الرجاء تسجيل الدخول برقم الهاتف وتفعيل البصمة من شاشة الاعدادت في تطبيق الماهر",
     "ForEasierAndFasterLogin": "فضلا امنح الصلاحية لدخول أسهل وأسرع"
   },
   "LanguagePopover": {
@@ -1276,7 +1276,7 @@ class CodegenLoader extends AssetLoader{
     "DataPrivacy": "خصوصية البيانات"
   }
 };
-static final Map<String,dynamic> en = {
+static const Map<String,dynamic> en = {
   "Common": {
     "Done": "Done",
     "Ok": "OK",
@@ -1569,15 +1569,15 @@ static final Map<String,dynamic> en = {
     "Welcome": "Welcome,",
     "MyTickets": "My Tickets",
     "FAQs": "Frequently asked questions",
-    "AboutMaharah": "About Maharah",
-    "MaharahBranches": "Maharah's Branches",
+    "AboutEl Maher": "About El Maher",
+    "El MaherBranches": "El Maher's Branches",
     "LoginUsingBiometrics": "Login using biometrics",
     "PrivacyPolicy": "Privacy Policy",
     "Arabic": "عربي",
     "ENG": "ENG",
     "FollowUs": "Follow us",
     "Login": "Login",
-    "MaharahHumanResources": "Maharah Human Resources",
+    "El MaherHumanResources": "El Maher Human Resources",
     "YouAreNotLoggedIn": "You are not logged in",
     "Point": "Point",
     "Version": "Version"
@@ -1651,7 +1651,7 @@ static final Map<String,dynamic> en = {
     "FailedToCopyPriceToClipboard": "Failed to copy price to clipboard",
     "PleaseEnterVoucherNumber": "Please enter voucher number",
     "PackagePriceIncludesVAT": "Package price includes VAT",
-    "GetVoucherFromEmkanWebsite": "You can get a voucher for Maharah from Emkan's website via the link below",
+    "GetVoucherFromEmkanWebsite": "You can get a voucher for El Maher from Emkan's website via the link below",
     "VoucherAmount": "Voucher's Amount",
     "VoucherAmountIsNotEnoughtToActivateRequest": "Voucher amount isn't enough to activate the request, the amount will only be added to your wallet. Continue?",
     "ApplicationId": "Application Id",
@@ -1752,8 +1752,8 @@ static final Map<String,dynamic> en = {
     "AddTOCalendar": "Add visits dates to my calendar.",
     "ConfirmAddToCalendar": "The visits dates has been added to your calendar.",
     "ConfirmDeleteFromCalendar": "The visits dates has been removed from your calendar.",
-    "EventTitleCalendar": "Maharah: Next Visit",
-    "MaharahUpcomingVisit": "Maharah: Upcoming Visit - ",
+    "EventTitleCalendar": "El Maher: Next Visit",
+    "El MaherUpcomingVisit": "El Maher: Upcoming Visit - ",
     "CalendarVisitTime": "Visit Time: ",
     "SupportsInstallments": "Supports Installments",
     "VisitVisits": "Visit/Visits",
@@ -2160,8 +2160,8 @@ static final Map<String,dynamic> en = {
     "Help": "help",
     "MyTicket": "My Ticket",
     "Complaints": "Complaints and requests",
-    "AboutMaharah": "About Maharah",
-    "MaharahBranch": "Maharah Branches",
+    "AboutEl Maher": "About El Maher",
+    "El MaherBranch": "El Maher Branches",
     "FAQ": "Frequently Asked Questions",
     "Discount": "Discounts For Company Employees",
     "Care": "Customer Care",
@@ -2205,8 +2205,8 @@ static final Map<String,dynamic> en = {
   },
   "About": {
     "AboutUs": "About Us",
-    "AboutMaharah": "About Maharah",
-    "AboutText": "Maharah aims to provide the labor market with cadres and workers in various professions to meet the market demand by emphasizing on training and developing its team to provide better services to its clients.",
+    "AboutEl Maher": "About El Maher",
+    "AboutText": "El Maher aims to provide the labor market with cadres and workers in various professions to meet the market demand by emphasizing on training and developing its team to provide better services to its clients.",
     "Vision": "Vision",
     "VisionText": "Leading the human resources sector by providing comprehensive and integrated solutions that ensure our clients success, protect employees' rights and support the national development",
     "Mission": "Mission",
@@ -2293,7 +2293,7 @@ static final Map<String,dynamic> en = {
   },
   "Discount": {
     "DiscountTitle": "Discounts For Company Employees",
-    "DiscountText": "This page is for business owners who wish to establish a strategic relationship with Maharah Company, to give its employees special discounts on the services of the individual sector.",
+    "DiscountText": "This page is for business owners who wish to establish a strategic relationship with El Maher Company, to give its employees special discounts on the services of the individual sector.",
     "CompanyName": "Company Name",
     "CommercialRegistrationNo": "Com Registration No",
     "CompanyAddress": "Company Address",
@@ -2301,7 +2301,7 @@ static final Map<String,dynamic> en = {
     "CompanyNo": "Company employees No",
     "CompanyPhone": "Company Phone",
     "Email": "Email",
-    "MaharahServices": "Maharah Services",
+    "El MaherServices": "El Maher Services",
     "CompanyAddressPlaceholder": "Al-Riyadh"
   },
   "FAQ": {
@@ -2309,7 +2309,7 @@ static final Map<String,dynamic> en = {
     "Searchbar": "Search for Questions"
   },
   "Branches": {
-    "Title": "Maharah Branches",
+    "Title": "El Maher Branches",
     "Phone": "Unified Number",
     "Email": "Email",
     "Website": "Website",
@@ -2339,7 +2339,7 @@ static final Map<String,dynamic> en = {
   },
   "Register": {
     "RegisterTitle": "Register Account",
-    "NewAccount": "New Account with Maharah",
+    "NewAccount": "New Account with El Maher",
     "FullName": "Customer Name",
     "FirstName": "first name",
     "MiddleName": "middle name",
@@ -2351,12 +2351,12 @@ static final Map<String,dynamic> en = {
     "Register": "Register",
     "Agree": "I agree to",
     "Terms": "the terms and conditions",
-    "MaharahAccount": "Have an account in Maharah?",
+    "El MaherAccount": "Have an account in El Maher?",
     "Login": "Login"
   },
   "RegisterPopover": {
     "Registered": "You have been successfully registered ",
-    "MaharahAccount": "In Maharah's application",
+    "El MaherAccount": "In El Maher's application",
     "Home": "Home Page",
     "Okay": "Okay",
     "Booking": "Book Service"
@@ -2374,7 +2374,7 @@ static final Map<String,dynamic> en = {
   },
   "Authentication": {
     "FailedToVerifyYourBiometric": "Failed to verify your biometric identity, please try again",
-    "YouHaveNoCredentialsSaved": "Please log in with your phone number and activate the fingerprint from settings in Maharah app",
+    "YouHaveNoCredentialsSaved": "Please log in with your phone number and activate the fingerprint from settings in El Maher app",
     "ForEasierAndFasterLogin": "Allow for easier and faster login"
   },
   "LanguagePopover": {
@@ -2562,5 +2562,5 @@ static final Map<String,dynamic> en = {
     "DataPrivacy": "Data Privacy"
   }
 };
-static Map<String, Map<String,dynamic>> mapLocales = {"ar": ar, "en": en};
+static const Map<String, Map<String,dynamic>> mapLocales = {"ar": ar, "en": en};
 }

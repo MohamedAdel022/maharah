@@ -291,15 +291,15 @@
     "Welcome": "Welcome,",
     "MyTickets": "My Tickets",
     "FAQs": "Frequently asked questions",
-    "AboutMaharah": "About Maharah",
-    "MaharahBranches": "Maharah's Branches",
+    "AboutEl Maher": "About El Maher",
+    "El MaherBranches": "El Maher's Branches",
     "LoginUsingBiometrics": "Login using biometrics",
     "PrivacyPolicy": "Privacy Policy",
     "Arabic": "عربي",
     "ENG": "ENG",
     "FollowUs": "Follow us",
     "Login": "Login",
-    "MaharahHumanResources": "Maharah Human Resources",
+    "El MaherHumanResources": "El Maher Human Resources",
     "YouAreNotLoggedIn": "You are not logged in",
     "Point": "Point",
     "Version": "Version"
@@ -373,7 +373,7 @@
     "FailedToCopyPriceToClipboard": "Failed to copy price to clipboard",
     "PleaseEnterVoucherNumber": "Please enter voucher number",
     "PackagePriceIncludesVAT": "Package price includes VAT",
-    "GetVoucherFromEmkanWebsite": "You can get a voucher for Maharah from Emkan's website via the link below",
+    "GetVoucherFromEmkanWebsite": "You can get a voucher for El Maher from Emkan's website via the link below",
     "VoucherAmount": "Voucher's Amount",
     "VoucherAmountIsNotEnoughtToActivateRequest": "Voucher amount isn't enough to activate the request, the amount will only be added to your wallet. Continue?",
     "ApplicationId": "Application Id",
@@ -474,8 +474,8 @@
     "AddTOCalendar": "Add visits dates to my calendar.",
     "ConfirmAddToCalendar": "The visits dates has been added to your calendar.",
     "ConfirmDeleteFromCalendar": "The visits dates has been removed from your calendar.",
-    "EventTitleCalendar": "Maharah: Next Visit",
-    "MaharahUpcomingVisit": "Maharah: Upcoming Visit - ",
+    "EventTitleCalendar": "El Maher: Next Visit",
+    "El MaherUpcomingVisit": "El Maher: Upcoming Visit - ",
     "CalendarVisitTime": "Visit Time: ",
     "SupportsInstallments": "Supports Installments",
     "VisitVisits": "Visit/Visits",
@@ -882,8 +882,8 @@
     "Help": "help",
     "MyTicket": "My Ticket",
     "Complaints": "Complaints and requests",
-    "AboutMaharah": "About Maharah",
-    "MaharahBranch": "Maharah Branches",
+    "AboutEl Maher": "About El Maher",
+    "El MaherBranch": "El Maher Branches",
     "FAQ": "Frequently Asked Questions",
     "Discount": "Discounts For Company Employees",
     "Care": "Customer Care",
@@ -927,8 +927,8 @@
   },
   "About": {
     "AboutUs": "About Us",
-    "AboutMaharah": "About Maharah",
-    "AboutText": "Maharah aims to provide the labor market with cadres and workers in various professions to meet the market demand by emphasizing on training and developing its team to provide better services to its clients.",
+    "AboutEl Maher": "About El Maher",
+    "AboutText": "El Maher aims to provide the labor market with cadres and workers in various professions to meet the market demand by emphasizing on training and developing its team to provide better services to its clients.",
     "Vision": "Vision",
     "VisionText": "Leading the human resources sector by providing comprehensive and integrated solutions that ensure our clients success, protect employees' rights and support the national development",
     "Mission": "Mission",
@@ -1015,7 +1015,7 @@
   },
   "Discount": {
     "DiscountTitle": "Discounts For Company Employees",
-    "DiscountText": "This page is for business owners who wish to establish a strategic relationship with Maharah Company, to give its employees special discounts on the services of the individual sector.",
+    "DiscountText": "This page is for business owners who wish to establish a strategic relationship with El Maher Company, to give its employees special discounts on the services of the individual sector.",
     "CompanyName": "Company Name",
     "CommercialRegistrationNo": "Com Registration No",
     "CompanyAddress": "Company Address",
@@ -1023,7 +1023,7 @@
     "CompanyNo": "Company employees No",
     "CompanyPhone": "Company Phone",
     "Email": "Email",
-    "MaharahServices": "Maharah Services",
+    "El MaherServices": "El Maher Services",
     "CompanyAddressPlaceholder": "Al-Riyadh"
   },
   "FAQ": {
@@ -1031,7 +1031,7 @@
     "Searchbar": "Search for Questions"
   },
   "Branches": {
-    "Title": "Maharah Branches",
+    "Title": "El Maher Branches",
     "Phone": "Unified Number",
     "Email": "Email",
     "Website": "Website",
@@ -1061,7 +1061,7 @@
   },
   "Register": {
     "RegisterTitle": "Register Account",
-    "NewAccount": "New Account with Maharah",
+    "NewAccount": "New Account with El Maher",
     "FullName": "Customer Name",
     "FirstName": "first name",
     "MiddleName": "middle name",
@@ -1073,12 +1073,12 @@
     "Register": "Register",
     "Agree": "I agree to",
     "Terms": "the terms and conditions",
-    "MaharahAccount": "Have an account in Maharah?",
+    "El MaherAccount": "Have an account in El Maher?",
     "Login": "Login"
   },
   "RegisterPopover": {
     "Registered": "You have been successfully registered ",
-    "MaharahAccount": "In Maharah's application",
+    "El MaherAccount": "In El Maher's application",
     "Home": "Home Page",
     "Okay": "Okay",
     "Booking": "Book Service"
@@ -1096,7 +1096,7 @@
   },
   "Authentication": {
     "FailedToVerifyYourBiometric": "Failed to verify your biometric identity, please try again",
-    "YouHaveNoCredentialsSaved": "Please log in with your phone number and activate the fingerprint from settings in Maharah app",
+    "YouHaveNoCredentialsSaved": "Please log in with your phone number and activate the fingerprint from settings in El Maher app",
     "ForEasierAndFasterLogin": "Allow for easier and faster login"
   },
   "LanguagePopover": {

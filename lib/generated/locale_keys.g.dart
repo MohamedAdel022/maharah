@@ -2,7 +2,7 @@
 
 // ignore_for_file: constant_identifier_names
 
-abstract class LocaleKeys {
+abstract class  LocaleKeys {
   static const Common_Done = 'Common.Done';
   static const Common_Ok = 'Common.Ok';
   static const Common_Save = 'Common.Save';
@@ -51,15 +51,11 @@ abstract class LocaleKeys {
   static const Common_CInstructions = 'Common.CInstructions';
   static const Common_Optional = 'Common.Optional';
   static const Common_Booked = 'Common.Booked';
-  static const Common_PasswordChangedSuccessfully =
-      'Common.PasswordChangedSuccessfully';
-  static const Common_YourPasswordResetSuccessfully =
-      'Common.YourPasswordResetSuccessfully';
+  static const Common_PasswordChangedSuccessfully = 'Common.PasswordChangedSuccessfully';
+  static const Common_YourPasswordResetSuccessfully = 'Common.YourPasswordResetSuccessfully';
   static const Common_NoticeSentSuccessfully = 'Common.NoticeSentSuccessfully';
-  static const Common_AttendanceSubmittedSuccessfully =
-      'Common.AttendanceSubmittedSuccessfully';
-  static const Common_RequestSubmittedSuccessfully =
-      'Common.RequestSubmittedSuccessfully';
+  static const Common_AttendanceSubmittedSuccessfully = 'Common.AttendanceSubmittedSuccessfully';
+  static const Common_RequestSubmittedSuccessfully = 'Common.RequestSubmittedSuccessfully';
   static const Common_SendClockInNotice = 'Common.SendClockInNotice';
   static const Common_SendClockOutNotice = 'Common.SendClockOutNotice';
   static const Common_SubmitAttendance = 'Common.SubmitAttendance';
@@ -86,218 +82,125 @@ abstract class LocaleKeys {
   static const Common = 'Common';
   static const Errors_Unknown = 'Errors.Unknown';
   static const Errors_Offline = 'Errors.Offline';
-  static const Errors_LocationPermissionDenied =
-      'Errors.LocationPermissionDenied';
-  static const Errors_GeolocationPositionError =
-      'Errors.GeolocationPositionError';
-  static const Errors_KindlyGrantCalendarPermission =
-      'Errors.KindlyGrantCalendarPermission';
+  static const Errors_LocationPermissionDenied = 'Errors.LocationPermissionDenied';
+  static const Errors_GeolocationPositionError = 'Errors.GeolocationPositionError';
+  static const Errors_KindlyGrantCalendarPermission = 'Errors.KindlyGrantCalendarPermission';
   static const Errors_LoginFailure = 'Errors.LoginFailure';
-  static const Errors_ConnectionFailedPleaseTryAgain =
-      'Errors.ConnectionFailedPleaseTryAgain';
+  static const Errors_ConnectionFailedPleaseTryAgain = 'Errors.ConnectionFailedPleaseTryAgain';
   static const Errors_CantReachTheServer = 'Errors.CantReachTheServer';
-  static const Errors_InvalidCreditCardCredentials =
-      'Errors.InvalidCreditCardCredentials';
-  static const Errors_ThereAreNoTransactionsAvailable =
-      'Errors.ThereAreNoTransactionsAvailable';
-  static const Errors_SelectedTimeNotAvailable =
-      'Errors.SelectedTimeNotAvailable';
+  static const Errors_InvalidCreditCardCredentials = 'Errors.InvalidCreditCardCredentials';
+  static const Errors_ThereAreNoTransactionsAvailable = 'Errors.ThereAreNoTransactionsAvailable';
+  static const Errors_SelectedTimeNotAvailable = 'Errors.SelectedTimeNotAvailable';
   static const Errors_StartDateIsPequried = 'Errors.StartDateIsPequried';
   static const Errors_PleaseFillAllFields = 'Errors.PleaseFillAllFields';
   static const Errors_NationalIdIsRequired = 'Errors.NationalIdIsRequired';
   static const Errors_ServiceNotAvailable = 'Errors.ServiceNotAvailable';
-  static const Errors_NoCleaningToolsAvailableContinueWithoutCleaningTools =
-      'Errors.NoCleaningToolsAvailableContinueWithoutCleaningTools';
-  static const Errors_FailedToCopyBillNumberToClipboard =
-      'Errors.FailedToCopyBillNumberToClipboard';
+  static const Errors_NoCleaningToolsAvailableContinueWithoutCleaningTools = 'Errors.NoCleaningToolsAvailableContinueWithoutCleaningTools';
+  static const Errors_FailedToCopyBillNumberToClipboard = 'Errors.FailedToCopyBillNumberToClipboard';
   static const Errors_PleaseEnterValidEmail = 'Errors.PleaseEnterValidEmail';
-  static const Errors_SorryNoClipboardSupport =
-      'Errors.SorryNoClipboardSupport';
+  static const Errors_SorryNoClipboardSupport = 'Errors.SorryNoClipboardSupport';
   static const Errors_PleaseEnterOTP = 'Errors.PleaseEnterOTP';
   static const Errors = 'Errors';
-  static const ServerErrors_ResourcesNotAvailable =
-      'ServerErrors.ResourcesNotAvailable';
+  static const ServerErrors_ResourcesNotAvailable = 'ServerErrors.ResourcesNotAvailable';
   static const ServerErrors_AlreadyAnswered = 'ServerErrors.AlreadyAnswered';
-  static const ServerErrors_NoMonthlyPackageAvailable =
-      'ServerErrors.NoMonthlyPackageAvailable';
-  static const ServerErrors_LocationNotSupported =
-      'ServerErrors.LocationNotSupported';
-  static const ServerErrors_UnhandledServerError =
-      'ServerErrors.UnhandledServerError';
+  static const ServerErrors_NoMonthlyPackageAvailable = 'ServerErrors.NoMonthlyPackageAvailable';
+  static const ServerErrors_LocationNotSupported = 'ServerErrors.LocationNotSupported';
+  static const ServerErrors_UnhandledServerError = 'ServerErrors.UnhandledServerError';
   static const ServerErrors_InvalidModel = 'ServerErrors.InvalidModel';
   static const ServerErrors_ResourceNotFound = 'ServerErrors.ResourceNotFound';
   static const ServerErrors_PasswordMismatch = 'ServerErrors.PasswordMismatch';
   static const ServerErrors_InvalidUserName = 'ServerErrors.InvalidUserName';
   static const ServerErrors_InvalidEmail = 'ServerErrors.InvalidEmail';
-  static const ServerErrors_DuplicateUserName =
-      'ServerErrors.DuplicateUserName';
+  static const ServerErrors_DuplicateUserName = 'ServerErrors.DuplicateUserName';
   static const ServerErrors_DuplicateEmail = 'ServerErrors.DuplicateEmail';
   static const ServerErrors_PasswordTooShort = 'ServerErrors.PasswordTooShort';
-  static const ServerErrors_PasswordRequiresNonAlphanumeric =
-      'ServerErrors.PasswordRequiresNonAlphanumeric';
-  static const ServerErrors_PasswordRequiresDigit =
-      'ServerErrors.PasswordRequiresDigit';
-  static const ServerErrors_PasswordRequiresLower =
-      'ServerErrors.PasswordRequiresLower';
-  static const ServerErrors_PasswordRequiresUpper =
-      'ServerErrors.PasswordRequiresUpper';
+  static const ServerErrors_PasswordRequiresNonAlphanumeric = 'ServerErrors.PasswordRequiresNonAlphanumeric';
+  static const ServerErrors_PasswordRequiresDigit = 'ServerErrors.PasswordRequiresDigit';
+  static const ServerErrors_PasswordRequiresLower = 'ServerErrors.PasswordRequiresLower';
+  static const ServerErrors_PasswordRequiresUpper = 'ServerErrors.PasswordRequiresUpper';
   static const ServerErrors_invalid_grant = 'ServerErrors.invalid_grant';
-  static const ServerErrors_UserNotRegistered =
-      'ServerErrors.UserNotRegistered';
-  static const ServerErrors_UserAlreadyRegistered =
-      'ServerErrors.UserAlreadyRegistered';
-  static const ServerErrors_PhoneNumber2AlreadyUsed =
-      'ServerErrors.PhoneNumber2AlreadyUsed';
+  static const ServerErrors_UserNotRegistered = 'ServerErrors.UserNotRegistered';
+  static const ServerErrors_UserAlreadyRegistered = 'ServerErrors.UserAlreadyRegistered';
+  static const ServerErrors_PhoneNumber2AlreadyUsed = 'ServerErrors.PhoneNumber2AlreadyUsed';
   static const ServerErrors_UserIsBlocked = 'ServerErrors.UserIsBlocked';
-  static const ServerErrors_UserNameIsRequired =
-      'ServerErrors.UserNameIsRequired';
-  static const ServerErrors_PasswordIsRequired =
-      'ServerErrors.PasswordIsRequired';
-  static const ServerErrors_UserHasNoPhoneNumber =
-      'ServerErrors.UserHasNoPhoneNumber';
+  static const ServerErrors_UserNameIsRequired = 'ServerErrors.UserNameIsRequired';
+  static const ServerErrors_PasswordIsRequired = 'ServerErrors.PasswordIsRequired';
+  static const ServerErrors_UserHasNoPhoneNumber = 'ServerErrors.UserHasNoPhoneNumber';
   static const ServerErrors_TokenIsRequired = 'ServerErrors.TokenIsRequired';
-  static const ServerErrors_NewPasswordIsRequired =
-      'ServerErrors.NewPasswordIsRequired';
-  static const ServerErrors_PhoneNumberIsRequired =
-      'ServerErrors.PhoneNumberIsRequired';
+  static const ServerErrors_NewPasswordIsRequired = 'ServerErrors.NewPasswordIsRequired';
+  static const ServerErrors_PhoneNumberIsRequired = 'ServerErrors.PhoneNumberIsRequired';
   static const ServerErrors_InvalidToken = 'ServerErrors.InvalidToken';
-  static const ServerErrors_AttendanceAlreadySubmitted =
-      'ServerErrors.AttendanceAlreadySubmitted';
+  static const ServerErrors_AttendanceAlreadySubmitted = 'ServerErrors.AttendanceAlreadySubmitted';
   static const ServerErrors_FillAllFields = 'ServerErrors.FillAllFields';
-  static const ServerErrors_NoSavedCreditCard =
-      'ServerErrors.NoSavedCreditCard';
-  static const ServerErrors_AlreadyUnAssigned =
-      'ServerErrors.AlreadyUnAssigned';
-  static const ServerErrors_Applieddiscountsuccessfully =
-      'ServerErrors.Applieddiscountsuccessfully';
-  static const ServerErrors_BillgeneratedsuccessfullyBillnumber =
-      'ServerErrors.BillgeneratedsuccessfullyBillnumber';
+  static const ServerErrors_NoSavedCreditCard = 'ServerErrors.NoSavedCreditCard';
+  static const ServerErrors_AlreadyUnAssigned = 'ServerErrors.AlreadyUnAssigned';
+  static const ServerErrors_Applieddiscountsuccessfully = 'ServerErrors.Applieddiscountsuccessfully';
+  static const ServerErrors_BillgeneratedsuccessfullyBillnumber = 'ServerErrors.BillgeneratedsuccessfullyBillnumber';
   static const ServerErrors_BookingIsPaid = 'ServerErrors.BookingIsPaid';
-  static const ServerErrors_CountryCodeIsNotAvailableInTheService =
-      'ServerErrors.CountryCodeIsNotAvailableInTheService';
-  static const ServerErrors_CultureIdIsRequired =
-      'ServerErrors.CultureIdIsRequired';
-  static const ServerErrors_CustomerNameIsNotValid =
-      'ServerErrors.CustomerNameIsNotValid';
-  static const ServerErrors_CustomerNameIsRequired =
-      'ServerErrors.CustomerNameIsRequired';
+  static const ServerErrors_CountryCodeIsNotAvailableInTheService = 'ServerErrors.CountryCodeIsNotAvailableInTheService';
+  static const ServerErrors_CultureIdIsRequired = 'ServerErrors.CultureIdIsRequired';
+  static const ServerErrors_CustomerNameIsNotValid = 'ServerErrors.CustomerNameIsNotValid';
+  static const ServerErrors_CustomerNameIsRequired = 'ServerErrors.CustomerNameIsRequired';
   static const ServerErrors_DOBIsNotValid = 'ServerErrors.DOBIsNotValid';
-  static const ServerErrors_EndTimeShouldBeAfterStartTime =
-      'ServerErrors.EndTimeShouldBeAfterStartTime';
-  static const ServerErrors_FreeDurationTypeIdIsRequired =
-      'ServerErrors.FreeDurationTypeIdIsRequired';
-  static const ServerErrors_Notesfieldisrequired =
-      'ServerErrors.Notesfieldisrequired';
-  static const ServerErrors_PackageIsNotAvailableForThisAddress =
-      'ServerErrors.PackageIsNotAvailableForThisAddress';
-  static const ServerErrors_PackageNameIsRequired =
-      'ServerErrors.PackageNameIsRequired';
-  static const ServerErrors_PleaseselectanVisitDate =
-      'ServerErrors.PleaseselectanVisitDate';
-  static const ServerErrors_PleaseselectanworkTime =
-      'ServerErrors.PleaseselectanworkTime';
-  static const ServerErrors_Pleaseselectaservice =
-      'ServerErrors.Pleaseselectaservice';
-  static const ServerErrors_Pleaseselectatleastonepackage =
-      'ServerErrors.Pleaseselectatleastonepackage';
-  static const ServerErrors_Pleaseselectavisit =
-      'ServerErrors.Pleaseselectavisit';
-  static const ServerErrors_PleaseselectDurationType =
-      'ServerErrors.PleaseselectDurationType';
-  static const ServerErrors_Pleaseselectonebus =
-      'ServerErrors.Pleaseselectonebus';
-  static const ServerErrors_Pleaseselectstartdate =
-      'ServerErrors.Pleaseselectstartdate';
-  static const ServerErrors_Pleaseselecttargetcountry =
-      'ServerErrors.Pleaseselecttargetcountry';
-  static const ServerErrors_Pleaseselecttargetweekday =
-      'ServerErrors.Pleaseselecttargetweekday';
-  static const ServerErrors_Pleaseselecttargetworktime =
-      'ServerErrors.Pleaseselecttargetworktime';
-  static const ServerErrors_Pleasespecifycustomersaddress =
-      'ServerErrors.Pleasespecifycustomersaddress';
-  static const ServerErrors_Pleasespecifylineconfigurations =
-      'ServerErrors.Pleasespecifylineconfigurations';
-  static const ServerErrors_ResourcesCountIsNotValid =
-      'ServerErrors.ResourcesCountIsNotValid';
-  static const ServerErrors_ThisStateIsNotAvailableBeforeVisit =
-      'ServerErrors.ThisStateIsNotAvailableBeforeVisit';
-  static const ServerErrors_Vacationdateremovedsuccessfully =
-      'ServerErrors.Vacationdateremovedsuccessfully';
-  static const ServerErrors_ExceedCleaningToolsCount =
-      'ServerErrors.ExceedCleaningToolsCount';
-  static const ServerErrors_ServiceIsNotAvailableInThisLocation =
-      'ServerErrors.ServiceIsNotAvailableInThisLocation';
-  static const ServerErrors_SorryNoAvailability =
-      'ServerErrors.SorryNoAvailability';
-  static const ServerErrors_ExceedMaxBookings =
-      'ServerErrors.ExceedMaxBookings';
+  static const ServerErrors_EndTimeShouldBeAfterStartTime = 'ServerErrors.EndTimeShouldBeAfterStartTime';
+  static const ServerErrors_FreeDurationTypeIdIsRequired = 'ServerErrors.FreeDurationTypeIdIsRequired';
+  static const ServerErrors_Notesfieldisrequired = 'ServerErrors.Notesfieldisrequired';
+  static const ServerErrors_PackageIsNotAvailableForThisAddress = 'ServerErrors.PackageIsNotAvailableForThisAddress';
+  static const ServerErrors_PackageNameIsRequired = 'ServerErrors.PackageNameIsRequired';
+  static const ServerErrors_PleaseselectanVisitDate = 'ServerErrors.PleaseselectanVisitDate';
+  static const ServerErrors_PleaseselectanworkTime = 'ServerErrors.PleaseselectanworkTime';
+  static const ServerErrors_Pleaseselectaservice = 'ServerErrors.Pleaseselectaservice';
+  static const ServerErrors_Pleaseselectatleastonepackage = 'ServerErrors.Pleaseselectatleastonepackage';
+  static const ServerErrors_Pleaseselectavisit = 'ServerErrors.Pleaseselectavisit';
+  static const ServerErrors_PleaseselectDurationType = 'ServerErrors.PleaseselectDurationType';
+  static const ServerErrors_Pleaseselectonebus = 'ServerErrors.Pleaseselectonebus';
+  static const ServerErrors_Pleaseselectstartdate = 'ServerErrors.Pleaseselectstartdate';
+  static const ServerErrors_Pleaseselecttargetcountry = 'ServerErrors.Pleaseselecttargetcountry';
+  static const ServerErrors_Pleaseselecttargetweekday = 'ServerErrors.Pleaseselecttargetweekday';
+  static const ServerErrors_Pleaseselecttargetworktime = 'ServerErrors.Pleaseselecttargetworktime';
+  static const ServerErrors_Pleasespecifycustomersaddress = 'ServerErrors.Pleasespecifycustomersaddress';
+  static const ServerErrors_Pleasespecifylineconfigurations = 'ServerErrors.Pleasespecifylineconfigurations';
+  static const ServerErrors_ResourcesCountIsNotValid = 'ServerErrors.ResourcesCountIsNotValid';
+  static const ServerErrors_ThisStateIsNotAvailableBeforeVisit = 'ServerErrors.ThisStateIsNotAvailableBeforeVisit';
+  static const ServerErrors_Vacationdateremovedsuccessfully = 'ServerErrors.Vacationdateremovedsuccessfully';
+  static const ServerErrors_ExceedCleaningToolsCount = 'ServerErrors.ExceedCleaningToolsCount';
+  static const ServerErrors_ServiceIsNotAvailableInThisLocation = 'ServerErrors.ServiceIsNotAvailableInThisLocation';
+  static const ServerErrors_SorryNoAvailability = 'ServerErrors.SorryNoAvailability';
+  static const ServerErrors_ExceedMaxBookings = 'ServerErrors.ExceedMaxBookings';
   static const ServerErrors_CodeIsInactive = 'ServerErrors.CodeIsInactive';
-  static const ServerErrors_MaxUseCountPerCustomerExceeded =
-      'ServerErrors.MaxUseCountPerCustomerExceeded';
-  static const ServerErrors_BookingPackageIsInvalidForThisPromoCode =
-      'ServerErrors.BookingPackageIsInvalidForThisPromoCode';
-  static const ServerErrors_BookingPackageAlreadyHasDiscount =
-      'ServerErrors.BookingPackageAlreadyHasDiscount';
-  static const ServerErrors_BookingIsAlreadyPaid =
-      'ServerErrors.BookingIsAlreadyPaid';
+  static const ServerErrors_MaxUseCountPerCustomerExceeded = 'ServerErrors.MaxUseCountPerCustomerExceeded';
+  static const ServerErrors_BookingPackageIsInvalidForThisPromoCode = 'ServerErrors.BookingPackageIsInvalidForThisPromoCode';
+  static const ServerErrors_BookingPackageAlreadyHasDiscount = 'ServerErrors.BookingPackageAlreadyHasDiscount';
+  static const ServerErrors_BookingIsAlreadyPaid = 'ServerErrors.BookingIsAlreadyPaid';
   static const ServerErrors_CodeIsUsed = 'ServerErrors.CodeIsUsed';
-  static const ServerErrors_CodeNameIsInvalid =
-      'ServerErrors.CodeNameIsInvalid';
-  static const ServerErrors_BookingPackageWorktimeIsInvalidForThisPromoCode =
-      'ServerErrors.BookingPackageWorktimeIsInvalidForThisPromoCode';
-  static const ServerErrors_MaxUseCountExceeded =
-      'ServerErrors.MaxUseCountExceeded';
-  static const ServerErrors_AppliedDiscountIsNotPromoCode =
-      'ServerErrors.AppliedDiscountIsNotPromoCode';
-  static const ServerErrors_AppliedDiscountIsLessThanCurrentDiscount =
-      'ServerErrors.AppliedDiscountIsLessThanCurrentDiscount';
-  static const ServerErrors_DiscountCannotExceedBookingAmount =
-      'ServerErrors.DiscountCannotExceedBookingAmount';
-  static const ServerErrors_VisitsStartIsInvalidForThisPromoCode =
-      'ServerErrors.VisitsStartIsInvalidForThisPromoCode';
-  static const ServerErrors_VisitDateIsInvalid =
-      'ServerErrors.VisitDateIsInvalid';
-  static const ServerErrors_DelayedVisitDateIsInvalid =
-      'ServerErrors.DelayedVisitDateIsInvalid';
-  static const ServerErrors_VisitDateIsNotValid =
-      'ServerErrors.VisitDateIsNotValid';
-  static const ServerErrors_VisitLeadTimeIsInvalid =
-      'ServerErrors.VisitLeadTimeIsInvalid';
-  static const ServerErrors_VisitLeadTimeIsNotValid =
-      'ServerErrors.VisitLeadTimeIsNotValid';
-  static const ServerErrors_VisitStateIsInvalid =
-      'ServerErrors.VisitStateIsInvalid';
-  static const ServerErrors_VisitStateIsNotValid =
-      'ServerErrors.VisitStateIsNotValid';
-  static const ServerErrors_WeekdayIdIsInvalid =
-      'ServerErrors.WeekdayIdIsInvalid';
-  static const ServerErrors_WorktimeIsNotAvailableInTheService =
-      'ServerErrors.WorktimeIsNotAvailableInTheService';
-  static const ServerErrors_YouAlreadySubmittedARefundRequest =
-      'ServerErrors.YouAlreadySubmittedARefundRequest';
-  static const ServerErrors_WeekdayIsNotAvailableInThePackageLine =
-      'ServerErrors.WeekdayIsNotAvailableInThePackageLine';
-  static const ServerErrors_VisitsGenerationFailed =
-      'ServerErrors.VisitsGenerationFailed';
-  static const ServerErrors_ExceedAllowedCount =
-      'ServerErrors.ExceedAllowedCount';
-  static const ServerErrors_RequestIsDuplicated =
-      'ServerErrors.RequestIsDuplicated';
-  static const ServerErrors_ResourceCountryMismatch =
-      'ServerErrors.ResourceCountryMismatch';
-  static const ServerErrors_ResourceIsNotActive =
-      'ServerErrors.ResourceIsNotActive';
-  static const ServerErrors_ResourceIsNotAvailable =
-      'ServerErrors.ResourceIsNotAvailable';
-  static const ServerErrors_RequestStateIsInvalid =
-      'ServerErrors.RequestStateIsInvalid';
-  static const ServerErrors_AddressHasBookings =
-      'ServerErrors.AddressHasBookings';
-  static const ServerErrors_AddressAlreadyRegistered =
-      'ServerErrors.AddressAlreadyRegistered';
-  static const ServerErrors_FailedToGenerateSadadBill =
-      'ServerErrors.FailedToGenerateSadadBill';
+  static const ServerErrors_CodeNameIsInvalid = 'ServerErrors.CodeNameIsInvalid';
+  static const ServerErrors_BookingPackageWorktimeIsInvalidForThisPromoCode = 'ServerErrors.BookingPackageWorktimeIsInvalidForThisPromoCode';
+  static const ServerErrors_MaxUseCountExceeded = 'ServerErrors.MaxUseCountExceeded';
+  static const ServerErrors_AppliedDiscountIsNotPromoCode = 'ServerErrors.AppliedDiscountIsNotPromoCode';
+  static const ServerErrors_AppliedDiscountIsLessThanCurrentDiscount = 'ServerErrors.AppliedDiscountIsLessThanCurrentDiscount';
+  static const ServerErrors_DiscountCannotExceedBookingAmount = 'ServerErrors.DiscountCannotExceedBookingAmount';
+  static const ServerErrors_VisitsStartIsInvalidForThisPromoCode = 'ServerErrors.VisitsStartIsInvalidForThisPromoCode';
+  static const ServerErrors_VisitDateIsInvalid = 'ServerErrors.VisitDateIsInvalid';
+  static const ServerErrors_DelayedVisitDateIsInvalid = 'ServerErrors.DelayedVisitDateIsInvalid';
+  static const ServerErrors_VisitDateIsNotValid = 'ServerErrors.VisitDateIsNotValid';
+  static const ServerErrors_VisitLeadTimeIsInvalid = 'ServerErrors.VisitLeadTimeIsInvalid';
+  static const ServerErrors_VisitLeadTimeIsNotValid = 'ServerErrors.VisitLeadTimeIsNotValid';
+  static const ServerErrors_VisitStateIsInvalid = 'ServerErrors.VisitStateIsInvalid';
+  static const ServerErrors_VisitStateIsNotValid = 'ServerErrors.VisitStateIsNotValid';
+  static const ServerErrors_WeekdayIdIsInvalid = 'ServerErrors.WeekdayIdIsInvalid';
+  static const ServerErrors_WorktimeIsNotAvailableInTheService = 'ServerErrors.WorktimeIsNotAvailableInTheService';
+  static const ServerErrors_YouAlreadySubmittedARefundRequest = 'ServerErrors.YouAlreadySubmittedARefundRequest';
+  static const ServerErrors_WeekdayIsNotAvailableInThePackageLine = 'ServerErrors.WeekdayIsNotAvailableInThePackageLine';
+  static const ServerErrors_VisitsGenerationFailed = 'ServerErrors.VisitsGenerationFailed';
+  static const ServerErrors_ExceedAllowedCount = 'ServerErrors.ExceedAllowedCount';
+  static const ServerErrors_RequestIsDuplicated = 'ServerErrors.RequestIsDuplicated';
+  static const ServerErrors_ResourceCountryMismatch = 'ServerErrors.ResourceCountryMismatch';
+  static const ServerErrors_ResourceIsNotActive = 'ServerErrors.ResourceIsNotActive';
+  static const ServerErrors_ResourceIsNotAvailable = 'ServerErrors.ResourceIsNotAvailable';
+  static const ServerErrors_RequestStateIsInvalid = 'ServerErrors.RequestStateIsInvalid';
+  static const ServerErrors_AddressHasBookings = 'ServerErrors.AddressHasBookings';
+  static const ServerErrors_AddressAlreadyRegistered = 'ServerErrors.AddressAlreadyRegistered';
+  static const ServerErrors_FailedToGenerateSadadBill = 'ServerErrors.FailedToGenerateSadadBill';
   static const ServerErrors = 'ServerErrors';
   static const DomainCommon_RateUs = 'DomainCommon.RateUs';
   static const DomainCommon_RateOurApp = 'DomainCommon.RateOurApp';
@@ -317,38 +220,27 @@ abstract class LocaleKeys {
   static const DomainCommon_Babysitter = 'DomainCommon.Babysitter';
   static const DomainCommon_Spa = 'DomainCommon.Spa';
   static const DomainCommon_HomeCompanion = 'DomainCommon.HomeCompanion';
-  static const DomainCommon_RequestSubmittedSuccessfully =
-      'DomainCommon.RequestSubmittedSuccessfully';
-  static const DomainCommon_RequestSubmittedSuccessfullyRequestId =
-      'DomainCommon.RequestSubmittedSuccessfullyRequestId';
+  static const DomainCommon_RequestSubmittedSuccessfully = 'DomainCommon.RequestSubmittedSuccessfully';
+  static const DomainCommon_RequestSubmittedSuccessfullyRequestId = 'DomainCommon.RequestSubmittedSuccessfullyRequestId';
   static const DomainCommon_Status = 'DomainCommon.Status';
   static const DomainCommon_Age = 'DomainCommon.Age';
   static const DomainCommon_SAR = 'DomainCommon.SAR';
-  static const DomainCommon_PleaseHeadToTheBranch =
-      'DomainCommon.PleaseHeadToTheBranch';
+  static const DomainCommon_PleaseHeadToTheBranch = 'DomainCommon.PleaseHeadToTheBranch';
   static const DomainCommon_Request = 'DomainCommon.Request';
   static const DomainCommon_Summary = 'DomainCommon.Summary';
   static const DomainCommon_Options = 'DomainCommon.Options';
-  static const DomainCommon_ConfirmRequestSubmit =
-      'DomainCommon.ConfirmRequestSubmit';
-  static const DomainCommon_SubmittingRequest =
-      'DomainCommon.SubmittingRequest';
-  static const DomainCommon_ValidTillEndOfDay =
-      'DomainCommon.ValidTillEndOfDay';
+  static const DomainCommon_ConfirmRequestSubmit = 'DomainCommon.ConfirmRequestSubmit';
+  static const DomainCommon_SubmittingRequest = 'DomainCommon.SubmittingRequest';
+  static const DomainCommon_ValidTillEndOfDay = 'DomainCommon.ValidTillEndOfDay';
   static const DomainCommon_Attention = 'DomainCommon.Attention';
-  static const DomainCommon_RequestProcessCompletedSuccessfully =
-      'DomainCommon.RequestProcessCompletedSuccessfully';
+  static const DomainCommon_RequestProcessCompletedSuccessfully = 'DomainCommon.RequestProcessCompletedSuccessfully';
   static const DomainCommon_Discount = 'DomainCommon.Discount';
   static const DomainCommon_Price = 'DomainCommon.Price';
   static const DomainCommon_Hours = 'DomainCommon.Hours';
-  static const DomainCommon_TermsAndConditionsApplies =
-      'DomainCommon.TermsAndConditionsApplies';
-  static const DomainCommon_PleaseLoginToApplyPromoCode =
-      'DomainCommon.PleaseLoginToApplyPromoCode';
-  static const DomainCommon_PleaseLoginToContinue =
-      'DomainCommon.PleaseLoginToContinue';
-  static const DomainCommon_CodeAppliedSuccessfully =
-      'DomainCommon.CodeAppliedSuccessfully';
+  static const DomainCommon_TermsAndConditionsApplies = 'DomainCommon.TermsAndConditionsApplies';
+  static const DomainCommon_PleaseLoginToApplyPromoCode = 'DomainCommon.PleaseLoginToApplyPromoCode';
+  static const DomainCommon_PleaseLoginToContinue = 'DomainCommon.PleaseLoginToContinue';
+  static const DomainCommon_CodeAppliedSuccessfully = 'DomainCommon.CodeAppliedSuccessfully';
   static const DomainCommon_Credit = 'DomainCommon.Credit';
   static const DomainCommon_WalletBalance = 'DomainCommon.WalletBalance';
   static const DomainCommon_ValidTill20Min = 'DomainCommon.ValidTill20Min';
@@ -376,8 +268,7 @@ abstract class LocaleKeys {
   static const Tabs_Email = 'Tabs.Email';
   static const Tabs_Subject = 'Tabs.Subject';
   static const Tabs_Send = 'Tabs.Send';
-  static const Tabs_InvalidEmailOrEmptySubject =
-      'Tabs.InvalidEmailOrEmptySubject';
+  static const Tabs_InvalidEmailOrEmptySubject = 'Tabs.InvalidEmailOrEmptySubject';
   static const Tabs_FailedToConfigureChat = 'Tabs.FailedToConfigureChat';
   static const Tabs = 'Tabs';
   static const Navigation_Morning = 'Navigation.Morning';
@@ -399,23 +290,20 @@ abstract class LocaleKeys {
   static const Navigation_FAQs = 'Navigation.FAQs';
   static const Navigation_AboutMaharah = 'Navigation.AboutMaharah';
   static const Navigation_MaharahBranches = 'Navigation.MaharahBranches';
-  static const Navigation_LoginUsingBiometrics =
-      'Navigation.LoginUsingBiometrics';
+  static const Navigation_LoginUsingBiometrics = 'Navigation.LoginUsingBiometrics';
   static const Navigation_PrivacyPolicy = 'Navigation.PrivacyPolicy';
   static const Navigation_Arabic = 'Navigation.Arabic';
   static const Navigation_ENG = 'Navigation.ENG';
   static const Navigation_FollowUs = 'Navigation.FollowUs';
   static const Navigation_Login = 'Navigation.Login';
-  static const Navigation_MaharahHumanResources =
-      'Navigation.MaharahHumanResources';
+  static const Navigation_MaharahHumanResources = 'Navigation.MaharahHumanResources';
   static const Navigation_YouAreNotLoggedIn = 'Navigation.YouAreNotLoggedIn';
   static const Navigation_Point = 'Navigation.Point';
   static const Navigation_Version = 'Navigation.Version';
   static const Navigation = 'Navigation';
   static const Payment_Title = 'Payment.Title';
   static const Payment_CreatingPayment = 'Payment.CreatingPayment';
-  static const Payment_PaymentCompletedSuccessfully =
-      'Payment.PaymentCompletedSuccessfully';
+  static const Payment_PaymentCompletedSuccessfully = 'Payment.PaymentCompletedSuccessfully';
   static const Payment_PaymentDetails = 'Payment.PaymentDetails';
   static const Payment_UseWallet = 'Payment.UseWallet';
   static const Payment_RemainingInWallet = 'Payment.RemainingInWallet';
@@ -430,31 +318,25 @@ abstract class LocaleKeys {
   static const Payment_ActivationViaWallet = 'Payment.ActivationViaWallet';
   static const Payment_ActivateRequest = 'Payment.ActivateRequest';
   static const Payment_PaymentTypes_Mada = 'Payment.PaymentTypes.Mada';
-  static const Payment_PaymentTypes_CreditCard =
-      'Payment.PaymentTypes.CreditCard';
+  static const Payment_PaymentTypes_CreditCard = 'Payment.PaymentTypes.CreditCard';
   static const Payment_PaymentTypes_STCPay = 'Payment.PaymentTypes.STCPay';
   static const Payment_PaymentTypes_Sadad = 'Payment.PaymentTypes.Sadad';
   static const Payment_PaymentTypes_ApplePay = 'Payment.PaymentTypes.ApplePay';
   static const Payment_PaymentTypes_Tamara = 'Payment.PaymentTypes.Tamara';
   static const Payment_PaymentTypes = 'Payment.PaymentTypes';
-  static const Payment_TheInvoiceNumberHasBeenCopied =
-      'Payment.TheInvoiceNumberHasBeenCopied';
+  static const Payment_TheInvoiceNumberHasBeenCopied = 'Payment.TheInvoiceNumberHasBeenCopied';
   static const Payment_PayWithinThreeHours = 'Payment.PayWithinThreeHours';
   static const Payment_PayWithinOneHour = 'Payment.PayWithinOneHour';
   static const Payment_PayWithin20Minutes = 'Payment.PayWithin20Minutes';
   static const Payment_SadadInvoiceNumber = 'Payment.SadadInvoiceNumber';
   static const Payment_Agree = 'Payment.Agree';
   static const Payment_Request = 'Payment.Request';
-  static const Payment_PleaseEnterYourMobileNumber =
-      'Payment.PleaseEnterYourMobileNumber';
-  static const Payment_UseRegisterdMobileNumber =
-      'Payment.UseRegisterdMobileNumber';
-  static const Payment_PleaseEnterValidVerificationCode =
-      'Payment.PleaseEnterValidVerificationCode';
+  static const Payment_PleaseEnterYourMobileNumber = 'Payment.PleaseEnterYourMobileNumber';
+  static const Payment_UseRegisterdMobileNumber = 'Payment.UseRegisterdMobileNumber';
+  static const Payment_PleaseEnterValidVerificationCode = 'Payment.PleaseEnterValidVerificationCode';
   static const Payment_VerificationCode = 'Payment.VerificationCode';
   static const Payment_MobileNumber = 'Payment.MobileNumber';
-  static const Payment_PleaseEnterSTCPayMobile =
-      'Payment.PleaseEnterSTCPayMobile';
+  static const Payment_PleaseEnterSTCPayMobile = 'Payment.PleaseEnterSTCPayMobile';
   static const Payment_Pay = 'Payment.Pay';
   static const Payment_LoadingPaymentPage = 'Payment.LoadingPaymentPage';
   static const Payment_EnterNationalId = 'Payment.EnterNationalId';
@@ -476,55 +358,37 @@ abstract class LocaleKeys {
   static const Payment_Point = 'Payment.Point';
   static const Payment_PointsDiscount = 'Payment.PointsDiscount';
   static const Payment_DeductedFromPoints = 'Payment.DeductedFromPoints';
-  static const Payment_SorryAmountToPayIsZero =
-      'Payment.SorryAmountToPayIsZero';
+  static const Payment_SorryAmountToPayIsZero = 'Payment.SorryAmountToPayIsZero';
   static const Payment_PleaseYourEnterEmail = 'Payment.PleaseYourEnterEmail';
-  static const Payment_EmailIsRequiredForTamaraPayment =
-      'Payment.EmailIsRequiredForTamaraPayment';
-  static const Payment_YouCannotUseWalletWithTamara =
-      'Payment.YouCannotUseWalletWithTamara';
+  static const Payment_EmailIsRequiredForTamaraPayment = 'Payment.EmailIsRequiredForTamaraPayment';
+  static const Payment_YouCannotUseWalletWithTamara = 'Payment.YouCannotUseWalletWithTamara';
   static const Payment_VoucherNumber = 'Payment.VoucherNumber';
   static const Payment_AddVoucher = 'Payment.AddVoucher';
-  static const Payment_PriceCopiedToClipboard =
-      'Payment.PriceCopiedToClipboard';
-  static const Payment_FailedToCopyPriceToClipboard =
-      'Payment.FailedToCopyPriceToClipboard';
-  static const Payment_PleaseEnterVoucherNumber =
-      'Payment.PleaseEnterVoucherNumber';
-  static const Payment_PackagePriceIncludesVAT =
-      'Payment.PackagePriceIncludesVAT';
-  static const Payment_GetVoucherFromEmkanWebsite =
-      'Payment.GetVoucherFromEmkanWebsite';
+  static const Payment_PriceCopiedToClipboard = 'Payment.PriceCopiedToClipboard';
+  static const Payment_FailedToCopyPriceToClipboard = 'Payment.FailedToCopyPriceToClipboard';
+  static const Payment_PleaseEnterVoucherNumber = 'Payment.PleaseEnterVoucherNumber';
+  static const Payment_PackagePriceIncludesVAT = 'Payment.PackagePriceIncludesVAT';
+  static const Payment_GetVoucherFromEmkanWebsite = 'Payment.GetVoucherFromEmkanWebsite';
   static const Payment_VoucherAmount = 'Payment.VoucherAmount';
-  static const Payment_VoucherAmountIsNotEnoughtToActivateRequest =
-      'Payment.VoucherAmountIsNotEnoughtToActivateRequest';
+  static const Payment_VoucherAmountIsNotEnoughtToActivateRequest = 'Payment.VoucherAmountIsNotEnoughtToActivateRequest';
   static const Payment_ApplicationId = 'Payment.ApplicationId';
-  static const Payment_ExcessAmountWillBeAddedToYourWallet =
-      'Payment.ExcessAmountWillBeAddedToYourWallet';
+  static const Payment_ExcessAmountWillBeAddedToYourWallet = 'Payment.ExcessAmountWillBeAddedToYourWallet';
   static const Payment_Left = 'Payment.Left';
-  static const Payment_RequestHasBeenSubmittedTimeLeftToPay =
-      'Payment.RequestHasBeenSubmittedTimeLeftToPay';
+  static const Payment_RequestHasBeenSubmittedTimeLeftToPay = 'Payment.RequestHasBeenSubmittedTimeLeftToPay';
   static const Payment = 'Payment';
   static const CustomPackage_CustomPackage = 'CustomPackage.CustomPackage';
   static const CustomPackage_Hours = 'CustomPackage.Hours';
-  static const CustomPackage_SelectFirstVisitDate =
-      'CustomPackage.SelectFirstVisitDate';
-  static const CustomPackage_SelectNationality =
-      'CustomPackage.SelectNationality';
-  static const CustomPackage_SelectNumberOfResources =
-      'CustomPackage.SelectNumberOfResources';
-  static const CustomPackage_PickDurationAndTime =
-      'CustomPackage.PickDurationAndTime';
+  static const CustomPackage_SelectFirstVisitDate = 'CustomPackage.SelectFirstVisitDate';
+  static const CustomPackage_SelectNationality = 'CustomPackage.SelectNationality';
+  static const CustomPackage_SelectNumberOfResources = 'CustomPackage.SelectNumberOfResources';
+  static const CustomPackage_PickDurationAndTime = 'CustomPackage.PickDurationAndTime';
   static const CustomPackage_Packages = 'CustomPackage.Packages';
   static const CustomPackage_VATIncluded = 'CustomPackage.VATIncluded';
-  static const CustomPackage_MoreThanOneDayPerWeek =
-      'CustomPackage.MoreThanOneDayPerWeek';
-  static const CustomPackage_NoPackagesAvailable =
-      'CustomPackage.NoPackagesAvailable';
+  static const CustomPackage_MoreThanOneDayPerWeek = 'CustomPackage.MoreThanOneDayPerWeek';
+  static const CustomPackage_NoPackagesAvailable = 'CustomPackage.NoPackagesAvailable';
   static const CustomPackage_SelectDuration = 'CustomPackage.SelectDuration';
   static const CustomPackage_SelectPeriod = 'CustomPackage.SelectPeriod';
-  static const CustomPackage_ExpectedArrivalTime =
-      'CustomPackage.ExpectedArrivalTime';
+  static const CustomPackage_ExpectedArrivalTime = 'CustomPackage.ExpectedArrivalTime';
   static const CustomPackage = 'CustomPackage';
   static const Hourly_ReselectDate = 'Hourly.ReselectDate';
   static const Hourly_LoadingDays = 'Hourly.LoadingDays';
@@ -537,11 +401,9 @@ abstract class LocaleKeys {
   static const Hourly_PostponedCompensate = 'Hourly.PostponedCompensate';
   static const Hourly_SelectNationalityFirst = 'Hourly.SelectNationalityFirst';
   static const Hourly_HourlyRequest = 'Hourly.HourlyRequest';
-  static const Hourly_SelectServiceAndAddress =
-      'Hourly.SelectServiceAndAddress';
+  static const Hourly_SelectServiceAndAddress = 'Hourly.SelectServiceAndAddress';
   static const Hourly_HourlyServices = 'Hourly.HourlyServices';
-  static const Hourly_HourlyServicesDescription =
-      'Hourly.HourlyServicesDescription';
+  static const Hourly_HourlyServicesDescription = 'Hourly.HourlyServicesDescription';
   static const Hourly_HourlyServicesType = 'Hourly.HourlyServicesType';
   static const Hourly_SelectAddress = 'Hourly.SelectAddress';
   static const Hourly_SelectPackage = 'Hourly.SelectPackage';
@@ -557,18 +419,14 @@ abstract class LocaleKeys {
   static const Hourly_EveningPeriod = 'Hourly.EveningPeriod';
   static const Hourly_PickOffDay = 'Hourly.PickOffDay';
   static const Hourly_SelectPeriodFirst = 'Hourly.SelectPeriodFirst';
-  static const Hourly_SelectDurationAndPeriodFirst =
-      'Hourly.SelectDurationAndPeriodFirst';
+  static const Hourly_SelectDurationAndPeriodFirst = 'Hourly.SelectDurationAndPeriodFirst';
   static const Hourly_NoPackages = 'Hourly.NoPackages';
   static const Hourly_IncludeCleaningTools = 'Hourly.IncludeCleaningTools';
   static const Hourly_CleaningToolsPrice = 'Hourly.CleaningToolsPrice';
-  static const Hourly_CleaningToolsForOneVisit =
-      'Hourly.CleaningToolsForOneVisit';
-  static const Hourly_CleaningToolsDefinition =
-      'Hourly.CleaningToolsDefinition';
+  static const Hourly_CleaningToolsForOneVisit = 'Hourly.CleaningToolsForOneVisit';
+  static const Hourly_CleaningToolsDefinition = 'Hourly.CleaningToolsDefinition';
   static const Hourly_VAT = 'Hourly.VAT';
-  static const Hourly_RemoveSingleProviderConstraint =
-      'Hourly.RemoveSingleProviderConstraint';
+  static const Hourly_RemoveSingleProviderConstraint = 'Hourly.RemoveSingleProviderConstraint';
   static const Hourly_ConfirmVists = 'Hourly.ConfirmVists';
   static const Hourly_SelectFristVisit = 'Hourly.SelectFristVisit';
   static const Hourly_VisitTime = 'Hourly.VisitTime';
@@ -595,8 +453,7 @@ abstract class LocaleKeys {
   static const Hourly_PleaseEnterReason = 'Hourly.PleaseEnterReason';
   static const Hourly_Evaluate = 'Hourly.Evaluate';
   static const Hourly_AddYourReview = 'Hourly.AddYourReview';
-  static const Hourly_HappyToReceiveYourSuggestions =
-      'Hourly.HappyToReceiveYourSuggestions';
+  static const Hourly_HappyToReceiveYourSuggestions = 'Hourly.HappyToReceiveYourSuggestions';
   static const Hourly_WriteSuggestion = 'Hourly.WriteSuggestion';
   static const Hourly_AddYourNotes = 'Hourly.AddYourNotes';
   static const Hourly_ChooseWorkerFixed = 'Hourly.ChooseWorkerFixed';
@@ -608,8 +465,7 @@ abstract class LocaleKeys {
   static const Hourly_WorkCompleted = 'Hourly.WorkCompleted';
   static const Hourly_AddTOCalendar = 'Hourly.AddTOCalendar';
   static const Hourly_ConfirmAddToCalendar = 'Hourly.ConfirmAddToCalendar';
-  static const Hourly_ConfirmDeleteFromCalendar =
-      'Hourly.ConfirmDeleteFromCalendar';
+  static const Hourly_ConfirmDeleteFromCalendar = 'Hourly.ConfirmDeleteFromCalendar';
   static const Hourly_EventTitleCalendar = 'Hourly.EventTitleCalendar';
   static const Hourly_MaharahUpcomingVisit = 'Hourly.MaharahUpcomingVisit';
   static const Hourly_CalendarVisitTime = 'Hourly.CalendarVisitTime';
@@ -626,8 +482,7 @@ abstract class LocaleKeys {
   static const Hourly_ChooseNationality = 'Hourly.ChooseNationality';
   static const Hourly_ChoosePeriod = 'Hourly.ChoosePeriod';
   static const Hourly_ScheduleVisit = 'Hourly.ScheduleVisit';
-  static const Hourly_AvailableForFirstVisitOnly =
-      'Hourly.AvailableForFirstVisitOnly';
+  static const Hourly_AvailableForFirstVisitOnly = 'Hourly.AvailableForFirstVisitOnly';
   static const Hourly_ChangeStartDate = 'Hourly.ChangeStartDate';
   static const Hourly_HospitalityServiceType = 'Hourly.HospitalityServiceType';
   static const Hourly_ResourceUniform = 'Hourly.ResourceUniform';
@@ -639,8 +494,7 @@ abstract class LocaleKeys {
   static const MainPage_OurServices = 'MainPage.OurServices';
   static const MainPage_HourlyServices = 'MainPage.HourlyServices';
   static const MainPage_BussinessServices = 'MainPage.BussinessServices';
-  static const MainPage_BussinessServicesDescription =
-      'MainPage.BussinessServicesDescription';
+  static const MainPage_BussinessServicesDescription = 'MainPage.BussinessServicesDescription';
   static const MainPage_MonthlyServices = 'MainPage.MonthlyServices';
   static const MainPage_HourlyDes = 'MainPage.HourlyDes';
   static const MainPage_MonthlyDes = 'MainPage.MonthlyDes';
@@ -664,14 +518,12 @@ abstract class LocaleKeys {
   static const MainPage_Cleaning = 'MainPage.Cleaning';
   static const MainPage_LiveChat = 'MainPage.LiveChat';
   static const MainPage_BiometricText = 'MainPage.BiometricText';
-  static const MainPage_WhichServiceWouldYouLikeToRequest =
-      'MainPage.WhichServiceWouldYouLikeToRequest';
+  static const MainPage_WhichServiceWouldYouLikeToRequest = 'MainPage.WhichServiceWouldYouLikeToRequest';
   static const MainPage_Greetings = 'MainPage.Greetings';
   static const MainPage_ChooseServiceType = 'MainPage.ChooseServiceType';
   static const MainPage_Offers = 'MainPage.Offers';
   static const MainPage_MediationService = 'MainPage.MediationService';
-  static const MainPage_MediationServiceDescription =
-      'MainPage.MediationServiceDescription';
+  static const MainPage_MediationServiceDescription = 'MainPage.MediationServiceDescription';
   static const MainPage_Ayadi = 'MainPage.Ayadi';
   static const MainPage_AyadiDescription = 'MainPage.AyadiDescription';
   static const MainPage_Shifaa = 'MainPage.Shifaa';
@@ -680,10 +532,8 @@ abstract class LocaleKeys {
   static const HourlyRequest_AllContracts = 'HourlyRequest.AllContracts';
   static const HourlyRequest_ContractsCount = 'HourlyRequest.ContractsCount';
   static const HourlyRequest_ActiveContracts = 'HourlyRequest.ActiveContracts';
-  static const HourlyRequest_PendingContracts =
-      'HourlyRequest.PendingContracts';
-  static const HourlyRequest_CompletedContracts =
-      'HourlyRequest.CompletedContracts';
+  static const HourlyRequest_PendingContracts = 'HourlyRequest.PendingContracts';
+  static const HourlyRequest_CompletedContracts = 'HourlyRequest.CompletedContracts';
   static const HourlyRequest_HourlyContract = 'HourlyRequest.HourlyContract';
   static const HourlyRequest_ContractDetails = 'HourlyRequest.ContractDetails';
   static const HourlyRequest_ContractNo = 'HourlyRequest.ContractNo';
@@ -700,8 +550,7 @@ abstract class LocaleKeys {
   static const HourlyRequest_AvailableDelay = 'HourlyRequest.AvailableDelay';
   static const HourlyRequest_ContractAmount = 'HourlyRequest.ContractAmount';
   static const HourlyRequest_Duration = 'HourlyRequest.Duration';
-  static const HourlyRequest_NumberOfResources =
-      'HourlyRequest.NumberOfResources';
+  static const HourlyRequest_NumberOfResources = 'HourlyRequest.NumberOfResources';
   static const HourlyRequest_Visits = 'HourlyRequest.Visits';
   static const HourlyRequest_ViewVisits = 'HourlyRequest.ViewVisits';
   static const HourlyRequest_VisitReview = 'HourlyRequest.VisitReview';
@@ -718,31 +567,20 @@ abstract class LocaleKeys {
   static const HourlyRequest_Contract = 'HourlyRequest.Contract';
   static const HourlyRequest_DownloadPDFCopy = 'HourlyRequest.DownloadPDFCopy';
   static const HourlyRequest_Remaining = 'HourlyRequest.Remaining';
-  static const HourlyRequest_NumberOfVisitDateChanges =
-      'HourlyRequest.NumberOfVisitDateChanges';
+  static const HourlyRequest_NumberOfVisitDateChanges = 'HourlyRequest.NumberOfVisitDateChanges';
   static const HourlyRequest_NumberOfVisits = 'HourlyRequest.NumberOfVisits';
-  static const HourlyRequest_VisitState_Active =
-      'HourlyRequest.VisitState.Active';
-  static const HourlyRequest_VisitState_Remaining =
-      'HourlyRequest.VisitState.Remaining';
-  static const HourlyRequest_VisitState_Finished =
-      'HourlyRequest.VisitState.Finished';
-  static const HourlyRequest_VisitState_Postponed =
-      'HourlyRequest.VisitState.Postponed';
-  static const HourlyRequest_VisitState_Compensate =
-      'HourlyRequest.VisitState.Compensate';
-  static const HourlyRequest_VisitState_PostponedCompensate =
-      'HourlyRequest.VisitState.PostponedCompensate';
+  static const HourlyRequest_VisitState_Active = 'HourlyRequest.VisitState.Active';
+  static const HourlyRequest_VisitState_Remaining = 'HourlyRequest.VisitState.Remaining';
+  static const HourlyRequest_VisitState_Finished = 'HourlyRequest.VisitState.Finished';
+  static const HourlyRequest_VisitState_Postponed = 'HourlyRequest.VisitState.Postponed';
+  static const HourlyRequest_VisitState_Compensate = 'HourlyRequest.VisitState.Compensate';
+  static const HourlyRequest_VisitState_PostponedCompensate = 'HourlyRequest.VisitState.PostponedCompensate';
   static const HourlyRequest_VisitState = 'HourlyRequest.VisitState';
   static const HourlyRequest_ManageVisit = 'HourlyRequest.ManageVisit';
-  static const HourlyRequest_VisitActions_ChooseService =
-      'HourlyRequest.VisitActions.ChooseService';
-  static const HourlyRequest_VisitActions_ChangeOrLockResource =
-      'HourlyRequest.VisitActions.ChangeOrLockResource';
-  static const HourlyRequest_VisitActions_Change =
-      'HourlyRequest.VisitActions.Change';
-  static const HourlyRequest_VisitActions_Lock =
-      'HourlyRequest.VisitActions.Lock';
+  static const HourlyRequest_VisitActions_ChooseService = 'HourlyRequest.VisitActions.ChooseService';
+  static const HourlyRequest_VisitActions_ChangeOrLockResource = 'HourlyRequest.VisitActions.ChangeOrLockResource';
+  static const HourlyRequest_VisitActions_Change = 'HourlyRequest.VisitActions.Change';
+  static const HourlyRequest_VisitActions_Lock = 'HourlyRequest.VisitActions.Lock';
   static const HourlyRequest_VisitActions = 'HourlyRequest.VisitActions';
   static const HourlyRequest_VisitsSummary = 'HourlyRequest.VisitsSummary';
   static const HourlyRequest_VisitNo = 'HourlyRequest.VisitNo';
@@ -756,45 +594,34 @@ abstract class LocaleKeys {
   static const MonthlyRequest_NoPackages = 'MonthlyRequest.NoPackages';
   static const MonthlyRequest_MonthlyRequest = 'MonthlyRequest.MonthlyRequest';
   static const MonthlyRequest_ServiceType = 'MonthlyRequest.ServiceType';
-  static const MonthlyRequest_SelectServiceAndLocation =
-      'MonthlyRequest.SelectServiceAndLocation';
-  static const MonthlyRequest_MonthlyServices =
-      'MonthlyRequest.MonthlyServices';
+  static const MonthlyRequest_SelectServiceAndLocation = 'MonthlyRequest.SelectServiceAndLocation';
+  static const MonthlyRequest_MonthlyServices = 'MonthlyRequest.MonthlyServices';
   static const MonthlyRequest_Description = 'MonthlyRequest.Description';
   static const MonthlyRequest_SelectPackage = 'MonthlyRequest.SelectPackage';
-  static const MonthlyRequest_BookingLocation =
-      'MonthlyRequest.BookingLocation';
+  static const MonthlyRequest_BookingLocation = 'MonthlyRequest.BookingLocation';
   static const MonthlyRequest_NoteTitle = 'MonthlyRequest.NoteTitle';
   static const MonthlyRequest_ChangeWorker = 'MonthlyRequest.ChangeWorker';
-  static const MonthlyRequest_MultipleNationalities =
-      'MonthlyRequest.MultipleNationalities';
-  static const MonthlyRequest_SelectPackageDetails =
-      'MonthlyRequest.SelectPackageDetails';
+  static const MonthlyRequest_MultipleNationalities = 'MonthlyRequest.MultipleNationalities';
+  static const MonthlyRequest_SelectPackageDetails = 'MonthlyRequest.SelectPackageDetails';
   static const MonthlyRequest_Packages = 'MonthlyRequest.Packages';
   static const MonthlyRequest_VAT = 'MonthlyRequest.VAT';
   static const MonthlyRequest_Branches = 'MonthlyRequest.Branches';
   static const MonthlyRequest_Nationalities = 'MonthlyRequest.Nationalities';
   static const MonthlyRequest_Branch = 'MonthlyRequest.Branch';
-  static const MonthlyRequest_WorkerNationality =
-      'MonthlyRequest.WorkerNationality';
+  static const MonthlyRequest_WorkerNationality = 'MonthlyRequest.WorkerNationality';
   static const MonthlyRequest_Nationality = 'MonthlyRequest.Nationality';
   static const MonthlyRequest_Previous = 'MonthlyRequest.Previous';
   static const MonthlyRequest_Optional = 'MonthlyRequest.Optional';
   static const MonthlyRequest_MonthlyName = 'MonthlyRequest.MonthlyName';
   static const MonthlyRequest_Service = 'MonthlyRequest.Service';
   static const MonthlyRequest_Choose = 'MonthlyRequest.Choose';
-  static const MonthlyRequest_ThereAreNoResources =
-      'MonthlyRequest.ThereAreNoResources';
-  static const MonthlyRequest_NoAvailableResources =
-      'MonthlyRequest.NoAvailableResources';
+  static const MonthlyRequest_ThereAreNoResources = 'MonthlyRequest.ThereAreNoResources';
+  static const MonthlyRequest_NoAvailableResources = 'MonthlyRequest.NoAvailableResources';
   static const MonthlyRequest_Continue = 'MonthlyRequest.Continue';
-  static const MonthlyRequest_ChangeNationality =
-      'MonthlyRequest.ChangeNationality';
-  static const MonthlyRequest_AvailableResources =
-      'MonthlyRequest.AvailableResources';
+  static const MonthlyRequest_ChangeNationality = 'MonthlyRequest.ChangeNationality';
+  static const MonthlyRequest_AvailableResources = 'MonthlyRequest.AvailableResources';
   static const MonthlyRequest_Workers = 'MonthlyRequest.Workers';
-  static const MonthlyRequest_NationalityOfWorkers =
-      'MonthlyRequest.NationalityOfWorkers';
+  static const MonthlyRequest_NationalityOfWorkers = 'MonthlyRequest.NationalityOfWorkers';
   static const MonthlyRequest_RequestSummary = 'MonthlyRequest.RequestSummary';
   static const MonthlyRequest_Note = 'MonthlyRequest.Note';
   static const MonthlyRequest_Delivery = 'MonthlyRequest.Delivery';
@@ -807,8 +634,7 @@ abstract class LocaleKeys {
   static const MonthlyRequest_PromoCode = 'MonthlyRequest.PromoCode';
   static const MonthlyRequest_Use = 'MonthlyRequest.Use';
   static const MonthlyRequest_Point = 'MonthlyRequest.Point';
-  static const MonthlyRequest_TermsAndConditions =
-      'MonthlyRequest.TermsAndConditions';
+  static const MonthlyRequest_TermsAndConditions = 'MonthlyRequest.TermsAndConditions';
   static const MonthlyRequest_Agree = 'MonthlyRequest.Agree';
   static const MonthlyRequest_Submit = 'MonthlyRequest.Submit';
   static const MonthlyRequest_PaymentDetails = 'MonthlyRequest.PaymentDetails';
@@ -816,30 +642,21 @@ abstract class LocaleKeys {
   static const MonthlyRequest_EvaluationDone = 'MonthlyRequest.EvaluationDone';
   static const MonthlyRequest_Notes = 'MonthlyRequest.Notes';
   static const MonthlyRequest_NotesExample = 'MonthlyRequest.NotesExample';
-  static const MonthlyRequest_ChooseNationality =
-      'MonthlyRequest.ChooseNationality';
-  static const MonthlyRequest_MonthlyInstallments =
-      'MonthlyRequest.MonthlyInstallments';
+  static const MonthlyRequest_ChooseNationality = 'MonthlyRequest.ChooseNationality';
+  static const MonthlyRequest_MonthlyInstallments = 'MonthlyRequest.MonthlyInstallments';
   static const MonthlyRequest_Prepayment = 'MonthlyRequest.Prepayment';
-  static const MonthlyRequest_MonthlyInstallment =
-      'MonthlyRequest.MonthlyInstallment';
-  static const MonthlyRequest_NumberOfInstallments =
-      'MonthlyRequest.NumberOfInstallments';
+  static const MonthlyRequest_MonthlyInstallment = 'MonthlyRequest.MonthlyInstallment';
+  static const MonthlyRequest_NumberOfInstallments = 'MonthlyRequest.NumberOfInstallments';
   static const MonthlyRequest_OnlyOnce = 'MonthlyRequest.OnlyOnce';
-  static const MonthlyRequest_NafithConfirmation =
-      'MonthlyRequest.NafithConfirmation';
-  static const MonthlyRequest_ShowInstallmentsDetails =
-      'MonthlyRequest.ShowInstallmentsDetails';
+  static const MonthlyRequest_NafithConfirmation = 'MonthlyRequest.NafithConfirmation';
+  static const MonthlyRequest_ShowInstallmentsDetails = 'MonthlyRequest.ShowInstallmentsDetails';
   static const MonthlyRequest_ChooseAPackage = 'MonthlyRequest.ChooseAPackage';
   static const MonthlyRequest_MonthMonths = 'MonthlyRequest.MonthMonths';
-  static const MonthlyRequest_ChooseAResource =
-      'MonthlyRequest.ChooseAResource';
+  static const MonthlyRequest_ChooseAResource = 'MonthlyRequest.ChooseAResource';
   static const MonthlyRequest_SearchForCity = 'MonthlyRequest.SearchForCity';
   static const MonthlyRequest_Months = 'MonthlyRequest.Months';
-  static const MonthlyRequest_TransportationRequestSubmitted =
-      'MonthlyRequest.TransportationRequestSubmitted';
-  static const MonthlyRequest_TransportResourceToMe =
-      'MonthlyRequest.TransportResourceToMe';
+  static const MonthlyRequest_TransportationRequestSubmitted = 'MonthlyRequest.TransportationRequestSubmitted';
+  static const MonthlyRequest_TransportResourceToMe = 'MonthlyRequest.TransportResourceToMe';
   static const MonthlyRequest = 'MonthlyRequest';
   static const Location_MyLocation = 'Location.MyLocation';
   static const Location_PinLocation = 'Location.PinLocation';
@@ -877,22 +694,17 @@ abstract class LocaleKeys {
   static const WorkerProfile_PassportNumber = 'WorkerProfile.PassportNumber';
   static const WorkerProfile_Year = 'WorkerProfile.Year';
   static const WorkerProfile_Years = 'WorkerProfile.Years';
-  static const WorkerProfile_PickThisEmployee =
-      'WorkerProfile.PickThisEmployee';
-  static const WorkerProfile_YearsOfExperience =
-      'WorkerProfile.YearsOfExperience';
+  static const WorkerProfile_PickThisEmployee = 'WorkerProfile.PickThisEmployee';
+  static const WorkerProfile_YearsOfExperience = 'WorkerProfile.YearsOfExperience';
   static const WorkerProfile_Skills = 'WorkerProfile.Skills';
   static const WorkerProfile_Religion = 'WorkerProfile.Religion';
-  static const WorkerProfile_PreviousExperience =
-      'WorkerProfile.PreviousExperience';
-  static const WorkerProfile_PreviousWorkPlace =
-      'WorkerProfile.PreviousWorkPlace';
+  static const WorkerProfile_PreviousExperience = 'WorkerProfile.PreviousExperience';
+  static const WorkerProfile_PreviousWorkPlace = 'WorkerProfile.PreviousWorkPlace';
   static const WorkerProfile_ArabicSkills = 'WorkerProfile.ArabicSkills';
   static const WorkerProfile_Id = 'WorkerProfile.Id';
   static const WorkerProfile_Language = 'WorkerProfile.Language';
   static const WorkerProfile_BasicSkills = 'WorkerProfile.BasicSkills';
-  static const WorkerProfile_AdditionalSkills =
-      'WorkerProfile.AdditionalSkills';
+  static const WorkerProfile_AdditionalSkills = 'WorkerProfile.AdditionalSkills';
   static const WorkerProfile_MoreDetails = 'WorkerProfile.MoreDetails';
   static const WorkerProfile_Note = 'WorkerProfile.Note';
   static const WorkerProfile_EmployeeId = 'WorkerProfile.EmployeeId';
@@ -913,82 +725,61 @@ abstract class LocaleKeys {
   static const Contracts_NoContracts = 'Contracts.NoContracts';
   static const Contracts = 'Contracts';
   static const MonthlyContracts_Title = 'MonthlyContracts.Title';
-  static const MonthlyContracts_TotalContracts =
-      'MonthlyContracts.TotalContracts';
-  static const MonthlyContracts_ActiveContracts =
-      'MonthlyContracts.ActiveContracts';
-  static const MonthlyContracts_PendingContracts =
-      'MonthlyContracts.PendingContracts';
-  static const MonthlyContracts_FinishedContracts =
-      'MonthlyContracts.FinishedContracts';
+  static const MonthlyContracts_TotalContracts = 'MonthlyContracts.TotalContracts';
+  static const MonthlyContracts_ActiveContracts = 'MonthlyContracts.ActiveContracts';
+  static const MonthlyContracts_PendingContracts = 'MonthlyContracts.PendingContracts';
+  static const MonthlyContracts_FinishedContracts = 'MonthlyContracts.FinishedContracts';
   static const MonthlyContracts_AllContracts = 'MonthlyContracts.AllContracts';
   static const MonthlyContracts_Date = 'MonthlyContracts.Date';
-  static const MonthlyContracts_MonthlyService =
-      'MonthlyContracts.MonthlyService';
+  static const MonthlyContracts_MonthlyService = 'MonthlyContracts.MonthlyService';
   static const MonthlyContracts_Contract = 'MonthlyContracts.Contract';
   static const MonthlyContracts_Address = 'MonthlyContracts.Address';
   static const MonthlyContracts_Country = 'MonthlyContracts.Country';
   static const MonthlyContracts_Age = 'MonthlyContracts.Age';
   static const MonthlyContracts_Unsurpassed = 'MonthlyContracts.Unsurpassed';
   static const MonthlyContracts_AddReview = 'MonthlyContracts.AddReview';
-  static const MonthlyContracts_RequestChange =
-      'MonthlyContracts.RequestChange';
-  static const MonthlyContracts_AddYourReview =
-      'MonthlyContracts.AddYourReview';
+  static const MonthlyContracts_RequestChange = 'MonthlyContracts.RequestChange';
+  static const MonthlyContracts_AddYourReview = 'MonthlyContracts.AddYourReview';
   static const MonthlyContracts_AddYourNotes = 'MonthlyContracts.AddYourNotes';
-  static const MonthlyContracts_EditContractRequestsTypes =
-      'MonthlyContracts.EditContractRequestsTypes';
+  static const MonthlyContracts_EditContractRequestsTypes = 'MonthlyContracts.EditContractRequestsTypes';
   static const MonthlyContracts_Replace = 'MonthlyContracts.Replace';
   static const MonthlyContracts_Halt = 'MonthlyContracts.Halt';
   static const MonthlyContracts_Renew = 'MonthlyContracts.Renew';
   static const MonthlyContracts_From = 'MonthlyContracts.From';
   static const MonthlyContracts_To = 'MonthlyContracts.To';
   static const MonthlyContracts_ServiceDate = 'MonthlyContracts.ServiceDate';
-  static const MonthlyContracts_NumberOfVisits =
-      'MonthlyContracts.NumberOfVisits';
-  static const MonthlyContracts_ContractAmount =
-      'MonthlyContracts.ContractAmount';
+  static const MonthlyContracts_NumberOfVisits = 'MonthlyContracts.NumberOfVisits';
+  static const MonthlyContracts_ContractAmount = 'MonthlyContracts.ContractAmount';
   static const MonthlyContracts_ViewProfile = 'MonthlyContracts.ViewProfile';
   static const MonthlyContracts_Month = 'MonthlyContracts.Month';
   static const MonthlyContracts_Duration = 'MonthlyContracts.Duration';
-  static const MonthlyContracts_InsuranceAmount =
-      'MonthlyContracts.InsuranceAmount';
+  static const MonthlyContracts_InsuranceAmount = 'MonthlyContracts.InsuranceAmount';
   static const MonthlyContracts_PayNow = 'MonthlyContracts.PayNow';
   static const MonthlyContracts_Period = 'MonthlyContracts.Period';
   static const MonthlyContracts_State = 'MonthlyContracts.State';
-  static const MonthlyContracts_PleaseSelectDuration =
-      'MonthlyContracts.PleaseSelectDuration';
+  static const MonthlyContracts_PleaseSelectDuration = 'MonthlyContracts.PleaseSelectDuration';
   static const MonthlyContracts_PastDays = 'MonthlyContracts.PastDays';
-  static const MonthlyContracts_RemainingDays =
-      'MonthlyContracts.RemainingDays';
+  static const MonthlyContracts_RemainingDays = 'MonthlyContracts.RemainingDays';
   static const MonthlyContracts_ContactMe = 'MonthlyContracts.ContactMe';
-  static const MonthlyContracts_SupportWillContactYou =
-      'MonthlyContracts.SupportWillContactYou';
-  static const MonthlyContracts_TransferKafalah =
-      'MonthlyContracts.TransferKafalah';
+  static const MonthlyContracts_SupportWillContactYou = 'MonthlyContracts.SupportWillContactYou';
+  static const MonthlyContracts_TransferKafalah = 'MonthlyContracts.TransferKafalah';
   static const MonthlyContracts_SelectWorker = 'MonthlyContracts.SelectWorker';
-  static const MonthlyContracts_NoAvailableworkers =
-      'MonthlyContracts.NoAvailableworkers';
+  static const MonthlyContracts_NoAvailableworkers = 'MonthlyContracts.NoAvailableworkers';
   static const MonthlyContracts_RenewRequest = 'MonthlyContracts.RenewRequest';
   static const MonthlyContracts_AreYouSure = 'MonthlyContracts.AreYouSure';
-  static const MonthlyContracts_ContractCanceledSuccessfully =
-      'MonthlyContracts.ContractCanceledSuccessfully';
-  static const MonthlyContracts_PleaseUploadIBANScreenshot =
-      'MonthlyContracts.PleaseUploadIBANScreenshot';
+  static const MonthlyContracts_ContractCanceledSuccessfully = 'MonthlyContracts.ContractCanceledSuccessfully';
+  static const MonthlyContracts_PleaseUploadIBANScreenshot = 'MonthlyContracts.PleaseUploadIBANScreenshot';
   static const MonthlyContracts_VisitReview = 'MonthlyContracts.VisitReview';
   static const MonthlyContracts_EmployeeName = 'MonthlyContracts.EmployeeName';
-  static const MonthlyContracts_RatingSubmittedSuccessfully =
-      'MonthlyContracts.RatingSubmittedSuccessfully';
-  static const MonthlyContracts_PleaseEnterReason =
-      'MonthlyContracts.PleaseEnterReason';
+  static const MonthlyContracts_RatingSubmittedSuccessfully = 'MonthlyContracts.RatingSubmittedSuccessfully';
+  static const MonthlyContracts_PleaseEnterReason = 'MonthlyContracts.PleaseEnterReason';
   static const MonthlyContracts_Day = 'MonthlyContracts.Day';
   static const MonthlyContracts_Evaluate = 'MonthlyContracts.Evaluate';
   static const MonthlyContracts_Consumed = 'MonthlyContracts.Consumed';
   static const MonthlyContracts_Rest = 'MonthlyContracts.Rest';
   static const MonthlyContracts_Rest2 = 'MonthlyContracts.Rest2';
   static const MonthlyContracts_Rest3 = 'MonthlyContracts.Rest3';
-  static const MonthlyContracts_DelaysAllowed =
-      'MonthlyContracts.DelaysAllowed';
+  static const MonthlyContracts_DelaysAllowed = 'MonthlyContracts.DelaysAllowed';
   static const MonthlyContracts_Done = 'MonthlyContracts.Done';
   static const MonthlyContracts_Done2 = 'MonthlyContracts.Done2';
   static const MonthlyContracts_Days = 'MonthlyContracts.Days';
@@ -998,27 +789,19 @@ abstract class LocaleKeys {
   static const MonthlyContracts_NoWorker = 'MonthlyContracts.NoWorker';
   static const MonthlyContracts_NoPay = 'MonthlyContracts.NoPay';
   static const MonthlyContracts_EndDate = 'MonthlyContracts.EndDate';
-  static const MonthlyContracts_ContractDetails =
-      'MonthlyContracts.ContractDetails';
-  static const MonthlyContracts_WorkerDetails =
-      'MonthlyContracts.WorkerDetails';
+  static const MonthlyContracts_ContractDetails = 'MonthlyContracts.ContractDetails';
+  static const MonthlyContracts_WorkerDetails = 'MonthlyContracts.WorkerDetails';
   static const MonthlyContracts_RequestId = 'MonthlyContracts.RequestId';
   static const MonthlyContracts_Payment = 'MonthlyContracts.Payment';
   static const MonthlyContracts_Insurance = 'MonthlyContracts.Insurance';
   static const MonthlyContracts_Cancel = 'MonthlyContracts.Cancel';
-  static const MonthlyContracts_CancelationText =
-      'MonthlyContracts.CancelationText';
-  static const MonthlyContracts_UploadDocument =
-      'MonthlyContracts.UploadDocument';
+  static const MonthlyContracts_CancelationText = 'MonthlyContracts.CancelationText';
+  static const MonthlyContracts_UploadDocument = 'MonthlyContracts.UploadDocument';
   static const MonthlyContracts_Upload = 'MonthlyContracts.Upload';
-  static const MonthlyContracts_PricesBelowIncludeVAT =
-      'MonthlyContracts.PricesBelowIncludeVAT';
-  static const MonthlyContracts_NoResourceLinkedToRequest =
-      'MonthlyContracts.NoResourceLinkedToRequest';
-  static const MonthlyContracts_ManageContract =
-      'MonthlyContracts.ManageContract';
-  static const MonthlyContracts_TransportationRequestAmount =
-      'MonthlyContracts.TransportationRequestAmount';
+  static const MonthlyContracts_PricesBelowIncludeVAT = 'MonthlyContracts.PricesBelowIncludeVAT';
+  static const MonthlyContracts_NoResourceLinkedToRequest = 'MonthlyContracts.NoResourceLinkedToRequest';
+  static const MonthlyContracts_ManageContract = 'MonthlyContracts.ManageContract';
+  static const MonthlyContracts_TransportationRequestAmount = 'MonthlyContracts.TransportationRequestAmount';
   static const MonthlyContracts = 'MonthlyContracts';
   static const Profile_Profile = 'Profile.Profile';
   static const Profile_Nationality = 'Profile.Nationality';
@@ -1035,16 +818,14 @@ abstract class LocaleKeys {
   static const Profile_Update = 'Profile.Update';
   static const Profile_Delete_DeleteAccount = 'Profile.Delete.DeleteAccount';
   static const Profile_Delete_Title = 'Profile.Delete.Title';
-  static const Profile_Delete_EnterYourPhoneAndName =
-      'Profile.Delete.EnterYourPhoneAndName';
+  static const Profile_Delete_EnterYourPhoneAndName = 'Profile.Delete.EnterYourPhoneAndName';
   static const Profile_Delete_Name = 'Profile.Delete.Name';
   static const Profile_Delete_EnterYourName = 'Profile.Delete.EnterYourName';
   static const Profile_Delete_Details = 'Profile.Delete.Details';
   static const Profile_Delete_Details1 = 'Profile.Delete.Details1';
   static const Profile_Delete_Details2 = 'Profile.Delete.Details2';
   static const Profile_Delete_Details3 = 'Profile.Delete.Details3';
-  static const Profile_Delete_CannotDeleteInFollowingCases =
-      'Profile.Delete.CannotDeleteInFollowingCases';
+  static const Profile_Delete_CannotDeleteInFollowingCases = 'Profile.Delete.CannotDeleteInFollowingCases';
   static const Profile_Delete_CannotDelete1 = 'Profile.Delete.CannotDelete1';
   static const Profile_Delete_CannotDelete2 = 'Profile.Delete.CannotDelete2';
   static const Profile_Delete_CannotDelete3 = 'Profile.Delete.CannotDelete3';
@@ -1087,15 +868,12 @@ abstract class LocaleKeys {
   static const HelpNewTickets_ContractType = 'HelpNewTickets.ContractType';
   static const HelpNewTickets_OrderType = 'HelpNewTickets.OrderType';
   static const HelpNewTickets_OrderDetails = 'HelpNewTickets.OrderDetails';
-  static const HelpNewTickets_ComplaintsDetails =
-      'HelpNewTickets.ComplaintsDetails';
+  static const HelpNewTickets_ComplaintsDetails = 'HelpNewTickets.ComplaintsDetails';
   static const HelpNewTickets_OrderContent = 'HelpNewTickets.OrderContent';
   static const HelpNewTickets_SendTicket = 'HelpNewTickets.SendTicket';
-  static const HelpNewTickets_TicketCreatedSuccessfully =
-      'HelpNewTickets.TicketCreatedSuccessfully';
+  static const HelpNewTickets_TicketCreatedSuccessfully = 'HelpNewTickets.TicketCreatedSuccessfully';
   static const HelpNewTickets_ComplaintType = 'HelpNewTickets.ComplaintType';
-  static const HelpNewTickets_ComplaintDetails =
-      'HelpNewTickets.ComplaintDetails';
+  static const HelpNewTickets_ComplaintDetails = 'HelpNewTickets.ComplaintDetails';
   static const HelpNewTickets_OpenNewTicket = 'HelpNewTickets.OpenNewTicket';
   static const HelpNewTickets_Monthly = 'HelpNewTickets.Monthly';
   static const HelpNewTickets_Title = 'HelpNewTickets.Title';
@@ -1109,8 +887,7 @@ abstract class LocaleKeys {
   static const About_MissionText = 'About.MissionText';
   static const About_Value = 'About.Value';
   static const About_InnovationAndExcellence = 'About.InnovationAndExcellence';
-  static const About_IntegrityAndTransparency =
-      'About.IntegrityAndTransparency';
+  static const About_IntegrityAndTransparency = 'About.IntegrityAndTransparency';
   static const About_QualityAndPerfection = 'About.QualityAndPerfection';
   static const About_TeamSpirit = 'About.TeamSpirit';
   static const About_CustomerCentric = 'About.CustomerCentric';
@@ -1118,42 +895,30 @@ abstract class LocaleKeys {
   static const Ayadi_Title = 'Ayadi.Title';
   static const Ayadi_AyadiProgramsMessages = 'Ayadi.AyadiProgramsMessages';
   static const Ayadi_HousingProgramTitle = 'Ayadi.HousingProgramTitle';
-  static const Ayadi_HousingProgramDescription =
-      'Ayadi.HousingProgramDescription';
+  static const Ayadi_HousingProgramDescription = 'Ayadi.HousingProgramDescription';
   static const Ayadi_MasterCookingTitle = 'Ayadi.MasterCookingTitle';
-  static const Ayadi_MasterCookingDescription =
-      'Ayadi.MasterCookingDescription';
+  static const Ayadi_MasterCookingDescription = 'Ayadi.MasterCookingDescription';
   static const Ayadi_ElderlyCareProgramTitle = 'Ayadi.ElderlyCareProgramTitle';
-  static const Ayadi_ElderlyCareProgramDescription =
-      'Ayadi.ElderlyCareProgramDescription';
+  static const Ayadi_ElderlyCareProgramDescription = 'Ayadi.ElderlyCareProgramDescription';
   static const Ayadi_ChildCareProgramTitle = 'Ayadi.ChildCareProgramTitle';
-  static const Ayadi_ChildCareProgramDescription =
-      'Ayadi.ChildCareProgramDescription';
-  static const Ayadi_AdvancedChildCareForSpecialNeedProgramTitle =
-      'Ayadi.AdvancedChildCareForSpecialNeedProgramTitle';
-  static const Ayadi_AdvancedChildCareForSpecialNeedProgramDescription =
-      'Ayadi.AdvancedChildCareForSpecialNeedProgramDescription';
+  static const Ayadi_ChildCareProgramDescription = 'Ayadi.ChildCareProgramDescription';
+  static const Ayadi_AdvancedChildCareForSpecialNeedProgramTitle = 'Ayadi.AdvancedChildCareForSpecialNeedProgramTitle';
+  static const Ayadi_AdvancedChildCareForSpecialNeedProgramDescription = 'Ayadi.AdvancedChildCareForSpecialNeedProgramDescription';
   static const Ayadi = 'Ayadi';
-  static const AyadiServiceForm_InvalidPhoneNumber =
-      'AyadiServiceForm.InvalidPhoneNumber';
-  static const AyadiServiceForm_FillRequiredField =
-      'AyadiServiceForm.FillRequiredField';
+  static const AyadiServiceForm_InvalidPhoneNumber = 'AyadiServiceForm.InvalidPhoneNumber';
+  static const AyadiServiceForm_FillRequiredField = 'AyadiServiceForm.FillRequiredField';
   static const AyadiServiceForm_CustomerName = 'AyadiServiceForm.CustomerName';
   static const AyadiServiceForm_PhoneNumber = 'AyadiServiceForm.PhoneNumber';
   static const AyadiServiceForm_Email = 'AyadiServiceForm.Email';
   static const AyadiServiceForm_ServiceType = 'AyadiServiceForm.ServiceType';
   static const AyadiServiceForm_City = 'AyadiServiceForm.City';
   static const AyadiServiceForm_WorkerName = 'AyadiServiceForm.WorkerName';
-  static const AyadiServiceForm_WorkerNationality =
-      'AyadiServiceForm.WorkerNationality';
-  static const AyadiServiceForm_WorkerPassportNumber =
-      'AyadiServiceForm.WorkerPassportNumber';
-  static const AyadiServiceForm_WorkerResidenceNumber =
-      'AyadiServiceForm.WorkerResidenceNumber';
+  static const AyadiServiceForm_WorkerNationality = 'AyadiServiceForm.WorkerNationality';
+  static const AyadiServiceForm_WorkerPassportNumber = 'AyadiServiceForm.WorkerPassportNumber';
+  static const AyadiServiceForm_WorkerResidenceNumber = 'AyadiServiceForm.WorkerResidenceNumber';
   static const AyadiServiceForm_Gender = 'AyadiServiceForm.Gender';
   static const AyadiServiceForm_Occupation = 'AyadiServiceForm.Occupation';
-  static const AyadiServiceForm_SubmitRequest =
-      'AyadiServiceForm.SubmitRequest';
+  static const AyadiServiceForm_SubmitRequest = 'AyadiServiceForm.SubmitRequest';
   static const AyadiServiceForm = 'AyadiServiceForm';
   static const Shifaa_Title = 'Shifaa.Title';
   static const Shifaa_WhatIsShifaa = 'Shifaa.WhatIsShifaa';
@@ -1177,44 +942,36 @@ abstract class LocaleKeys {
   static const Discount_DiscountTitle = 'Discount.DiscountTitle';
   static const Discount_DiscountText = 'Discount.DiscountText';
   static const Discount_CompanyName = 'Discount.CompanyName';
-  static const Discount_CommercialRegistrationNo =
-      'Discount.CommercialRegistrationNo';
+  static const Discount_CommercialRegistrationNo = 'Discount.CommercialRegistrationNo';
   static const Discount_CompanyAddress = 'Discount.CompanyAddress';
   static const Discount_Companyactivity = 'Discount.Companyactivity';
   static const Discount_CompanyNo = 'Discount.CompanyNo';
   static const Discount_CompanyPhone = 'Discount.CompanyPhone';
   static const Discount_Email = 'Discount.Email';
   static const Discount_MaharahServices = 'Discount.MaharahServices';
-  static const Discount_CompanyAddressPlaceholder =
-      'Discount.CompanyAddressPlaceholder';
+  static const Discount_CompanyAddressPlaceholder = 'Discount.CompanyAddressPlaceholder';
   static const Discount = 'Discount';
-  static const ShifaaServiceForm_InvalidAgeFormat =
-      'ShifaaServiceForm.InvalidAgeFormat';
+  static const ShifaaServiceForm_InvalidAgeFormat = 'ShifaaServiceForm.InvalidAgeFormat';
   static const ShifaaServiceForm_Title = 'ShifaaServiceForm.Title';
   static const ShifaaServiceForm_Name = 'ShifaaServiceForm.Name';
   static const ShifaaServiceForm_Age = 'ShifaaServiceForm.Age';
   static const ShifaaServiceForm_Location = 'ShifaaServiceForm.Location';
   static const ShifaaServiceForm_Phone = 'ShifaaServiceForm.Phone';
   static const ShifaaServiceForm_Conscious = 'ShifaaServiceForm.Conscious';
-  static const ShifaaServiceForm_ChronicallyIll =
-      'ShifaaServiceForm.ChronicallyIll';
+  static const ShifaaServiceForm_ChronicallyIll = 'ShifaaServiceForm.ChronicallyIll';
   static const ShifaaServiceForm_UseInsulin = 'ShifaaServiceForm.UseInsulin';
   static const ShifaaServiceForm_IsCrippled = 'ShifaaServiceForm.IsCrippled';
-  static const ShifaaServiceForm_UseFeedingTube =
-      'ShifaaServiceForm.UseFeedingTube';
+  static const ShifaaServiceForm_UseFeedingTube = 'ShifaaServiceForm.UseFeedingTube';
   static const ShifaaServiceForm_TubeType = 'ShifaaServiceForm.TubeType';
-  static const ShifaaServiceForm_LaryngealCleft =
-      'ShifaaServiceForm.LaryngealCleft';
-  static const ShifaaServiceForm_InhaledMedications =
-      'ShifaaServiceForm.InhaledMedications';
+  static const ShifaaServiceForm_LaryngealCleft = 'ShifaaServiceForm.LaryngealCleft';
+  static const ShifaaServiceForm_InhaledMedications = 'ShifaaServiceForm.InhaledMedications';
   static const ShifaaServiceForm_Catheter = 'ShifaaServiceForm.Catheter';
   static const ShifaaServiceForm_HaveWounds = 'ShifaaServiceForm.HaveWounds';
   static const ShifaaServiceForm_WearDiapers = 'ShifaaServiceForm.WearDiapers';
   static const ShifaaServiceForm_Nationality = 'ShifaaServiceForm.Nationality';
   static const ShifaaServiceForm_Yes = 'ShifaaServiceForm.Yes';
   static const ShifaaServiceForm_No = 'ShifaaServiceForm.No';
-  static const ShifaaServiceForm_SubmitRequest =
-      'ShifaaServiceForm.SubmitRequest';
+  static const ShifaaServiceForm_SubmitRequest = 'ShifaaServiceForm.SubmitRequest';
   static const ShifaaServiceForm = 'ShifaaServiceForm';
   static const FAQ_FaqTitle = 'FAQ.FaqTitle';
   static const FAQ_Searchbar = 'FAQ.Searchbar';
@@ -1237,16 +994,13 @@ abstract class LocaleKeys {
   static const Splash_Begin = 'Splash.Begin';
   static const Splash_Skip = 'Splash.Skip';
   static const Splash_HourlyServices = 'Splash.HourlyServices';
-  static const Splash_HourlyServicesDescription =
-      'Splash.HourlyServicesDescription';
+  static const Splash_HourlyServicesDescription = 'Splash.HourlyServicesDescription';
   static const Splash_MonthlyServices = 'Splash.MonthlyServices';
-  static const Splash_MonthlyServicesDescription =
-      'Splash.MonthlyServicesDescription';
+  static const Splash_MonthlyServicesDescription = 'Splash.MonthlyServicesDescription';
   static const Splash_SelfService = 'Splash.SelfService';
   static const Splash_SelfServiceDescription = 'Splash.SelfServiceDescription';
   static const Splash_VariousPaymentMethods = 'Splash.VariousPaymentMethods';
-  static const Splash_VariousPaymentMethodsDescription =
-      'Splash.VariousPaymentMethodsDescription';
+  static const Splash_VariousPaymentMethodsDescription = 'Splash.VariousPaymentMethodsDescription';
   static const Splash_StartNow = 'Splash.StartNow';
   static const Splash = 'Splash';
   static const Register_RegisterTitle = 'Register.RegisterTitle';
@@ -1265,8 +1019,7 @@ abstract class LocaleKeys {
   static const Register_Login = 'Register.Login';
   static const Register = 'Register';
   static const RegisterPopover_Registered = 'RegisterPopover.Registered';
-  static const RegisterPopover_MaharahAccount =
-      'RegisterPopover.MaharahAccount';
+  static const RegisterPopover_MaharahAccount = 'RegisterPopover.MaharahAccount';
   static const RegisterPopover_Okay = 'RegisterPopover.Okay';
   static const RegisterPopover_Home = 'RegisterPopover.Home';
   static const RegisterPopover_Booking = 'RegisterPopover.Booking';
@@ -1278,17 +1031,12 @@ abstract class LocaleKeys {
   static const Settings_Language = 'Settings.Language';
   static const Settings_CurrentLanguage = 'Settings.CurrentLanguage';
   static const Settings_Biometrics = 'Settings.Biometrics';
-  static const Settings_SetBiometricsCredentails =
-      'Settings.SetBiometricsCredentails';
-  static const Settings_SuccessfullyEnabledBiomteric =
-      'Settings.SuccessfullyEnabledBiomteric';
+  static const Settings_SetBiometricsCredentails = 'Settings.SetBiometricsCredentails';
+  static const Settings_SuccessfullyEnabledBiomteric = 'Settings.SuccessfullyEnabledBiomteric';
   static const Settings = 'Settings';
-  static const Authentication_FailedToVerifyYourBiometric =
-      'Authentication.FailedToVerifyYourBiometric';
-  static const Authentication_YouHaveNoCredentialsSaved =
-      'Authentication.YouHaveNoCredentialsSaved';
-  static const Authentication_ForEasierAndFasterLogin =
-      'Authentication.ForEasierAndFasterLogin';
+  static const Authentication_FailedToVerifyYourBiometric = 'Authentication.FailedToVerifyYourBiometric';
+  static const Authentication_YouHaveNoCredentialsSaved = 'Authentication.YouHaveNoCredentialsSaved';
+  static const Authentication_ForEasierAndFasterLogin = 'Authentication.ForEasierAndFasterLogin';
   static const Authentication = 'Authentication';
   static const LanguagePopover_ChangeLang = 'LanguagePopover.ChangeLang';
   static const LanguagePopover_ChooseLang = 'LanguagePopover.ChooseLang';
@@ -1297,13 +1045,10 @@ abstract class LocaleKeys {
   static const ChangePassword_Title = 'ChangePassword.Title';
   static const ChangePassword_OldPassword = 'ChangePassword.OldPassword';
   static const ChangePassword_NewPassword = 'ChangePassword.NewPassword';
-  static const ChangePassword_ConfirmNewPassword =
-      'ChangePassword.ConfirmNewPassword';
+  static const ChangePassword_ConfirmNewPassword = 'ChangePassword.ConfirmNewPassword';
   static const ChangePassword = 'ChangePassword';
-  static const ChangePasswordPopover_PasswordChanged =
-      'ChangePasswordPopover.PasswordChanged';
-  static const ChangePasswordPopover_Successfully =
-      'ChangePasswordPopover.Successfully';
+  static const ChangePasswordPopover_PasswordChanged = 'ChangePasswordPopover.PasswordChanged';
+  static const ChangePasswordPopover_Successfully = 'ChangePasswordPopover.Successfully';
   static const ChangePasswordPopover_Home = 'ChangePasswordPopover.Home';
   static const ChangePasswordPopover = 'ChangePasswordPopover';
   static const MyPoints_MyPoints = 'MyPoints.MyPoints';
@@ -1353,8 +1098,7 @@ abstract class LocaleKeys {
   static const MyWallet_State = 'MyWallet.State';
   static const MyWallet = 'MyWallet';
   static const Mediation_MediationService = 'Mediation.MediationService';
-  static const Mediation_MediationServiceDetails =
-      'Mediation.MediationServiceDetails';
+  static const Mediation_MediationServiceDetails = 'Mediation.MediationServiceDetails';
   static const Mediation_RequestDetails = 'Mediation.RequestDetails';
   static const Mediation_PersonalDetails = 'Mediation.PersonalDetails';
   static const Mediation_RequiredNationality = 'Mediation.RequiredNationality';
@@ -1372,8 +1116,7 @@ abstract class LocaleKeys {
   static const Mediation_Religion = 'Mediation.Religion';
   static const Mediation_Muslim = 'Mediation.Muslim';
   static const Mediation_NonMuslim = 'Mediation.NonMuslim';
-  static const Mediation_RequestSubmittedSuccessfully =
-      'Mediation.RequestSubmittedSuccessfully';
+  static const Mediation_RequestSubmittedSuccessfully = 'Mediation.RequestSubmittedSuccessfully';
   static const Mediation_Example = 'Mediation.Example';
   static const Mediation = 'Mediation';
   static const Business_PageDesc = 'Business.PageDesc';
@@ -1383,8 +1126,7 @@ abstract class LocaleKeys {
   static const Business_DefinitionNo = 'Business.DefinitionNo';
   static const Business_Submit = 'Business.Submit';
   static const Business = 'Business';
-  static const Notifications_YouHaveNoNotifications =
-      'Notifications.YouHaveNoNotifications';
+  static const Notifications_YouHaveNoNotifications = 'Notifications.YouHaveNoNotifications';
   static const Notifications_MyNotifications = 'Notifications.MyNotifications';
   static const Notifications = 'Notifications';
   static const DelayVisit_Sunday = 'DelayVisit.Sunday';
@@ -1405,8 +1147,7 @@ abstract class LocaleKeys {
   static const DelayVisit_VisitDate = 'DelayVisit.VisitDate';
   static const DelayVisit_SelectedDate = 'DelayVisit.SelectedDate';
   static const DelayVisit_ChangeDateFromTo = 'DelayVisit.ChangeDateFromTo';
-  static const DelayVisit_ExceededAllowedChangesWantToPay =
-      'DelayVisit.ExceededAllowedChangesWantToPay';
+  static const DelayVisit_ExceededAllowedChangesWantToPay = 'DelayVisit.ExceededAllowedChangesWantToPay';
   static const DelayVisit = 'DelayVisit';
   static const Contests_Title = 'Contests.Title';
   static const Contests_CorrectAnswer = 'Contests.CorrectAnswer';
@@ -1421,12 +1162,9 @@ abstract class LocaleKeys {
   static const FavoritePackage_NoFavorites = 'FavoritePackage.NoFavorites';
   static const FavoritePackage_Weeks = 'FavoritePackage.Weeks';
   static const FavoritePackage_Location = 'FavoritePackage.Location';
-  static const FavoritePackage_SavedSuccessfully =
-      'FavoritePackage.SavedSuccessfully';
-  static const FavoritePackage_RemovedSuccessfully =
-      'FavoritePackage.RemovedSuccessfully';
-  static const FavoritePackage_RemovePackageFromFavorites =
-      'FavoritePackage.RemovePackageFromFavorites';
+  static const FavoritePackage_SavedSuccessfully = 'FavoritePackage.SavedSuccessfully';
+  static const FavoritePackage_RemovedSuccessfully = 'FavoritePackage.RemovedSuccessfully';
+  static const FavoritePackage_RemovePackageFromFavorites = 'FavoritePackage.RemovePackageFromFavorites';
   static const FavoritePackage = 'FavoritePackage';
   static const Hospitals_Hospitals = 'Hospitals.Hospitals';
   static const Hospitals_City = 'Hospitals.City';
@@ -1437,15 +1175,11 @@ abstract class LocaleKeys {
   static const AccountStatement_Title = 'AccountStatement.Title';
   static const AccountStatement_SubTitle = 'AccountStatement.SubTitle';
   static const AccountStatement_Description = 'AccountStatement.Description';
-  static const AccountStatement_YouHaveNoStatements =
-      'AccountStatement.YouHaveNoStatements';
+  static const AccountStatement_YouHaveNoStatements = 'AccountStatement.YouHaveNoStatements';
   static const AccountStatement_ServiceType = 'AccountStatement.ServiceType';
-  static const AccountStatement_TransactionType =
-      'AccountStatement.TransactionType';
-  static const AccountStatement_StatementDetails =
-      'AccountStatement.StatementDetails';
-  static const AccountStatement_StatementDate =
-      'AccountStatement.StatementDate';
+  static const AccountStatement_TransactionType = 'AccountStatement.TransactionType';
+  static const AccountStatement_StatementDetails = 'AccountStatement.StatementDetails';
+  static const AccountStatement_StatementDate = 'AccountStatement.StatementDate';
   static const AccountStatement = 'AccountStatement';
   static const InstallmentsDetails_Title = 'InstallmentsDetails.Title';
   static const InstallmentsDetails_DueDate = 'InstallmentsDetails.DueDate';
@@ -1466,11 +1200,10 @@ abstract class LocaleKeys {
   static const DataPrivacy_Message = 'DataPrivacy.Message';
   static const DataPrivacy_IAccept = 'DataPrivacy.IAccept';
   static const DataPrivacy_PrivacyPolicy = 'DataPrivacy.PrivacyPolicy';
-  static const DataPrivacy_IAcceptReceivingOffers =
-      'DataPrivacy.IAcceptReceivingOffers';
+  static const DataPrivacy_IAcceptReceivingOffers = 'DataPrivacy.IAcceptReceivingOffers';
   static const DataPrivacy_WeWillContactYou = 'DataPrivacy.WeWillContactYou';
-  static const DataPrivacy_RequestToWithdrawConsent =
-      'DataPrivacy.RequestToWithdrawConsent';
+  static const DataPrivacy_RequestToWithdrawConsent = 'DataPrivacy.RequestToWithdrawConsent';
   static const DataPrivacy_DataPrivacy = 'DataPrivacy.DataPrivacy';
   static const DataPrivacy = 'DataPrivacy';
+
 }
